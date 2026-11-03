@@ -1,0 +1,41 @@
+{
+  "question": {
+    "id": "q03",
+    "kind": "policy",
+    "question": "كيف ألغي الحجز؟ وهل توجد رسوم على الإلغاء؟",
+    "status": [
+      "answered"
+    ],
+    "section": "إلغاء الحجز وتعديله",
+    "facts": [
+      [
+        "24"
+      ],
+      [
+        "50"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "يمكنك إلغاء الحجز من صفحة \"حجوزاتي\" في التطبيق، أو بالرد على رسالة التأكيد. الإلغاء مجاني إذا تم قبل الموعد بـ 24 ساعة أو أكثر. أما إذا تم خلال أقل من 24 ساعة من الموعد، فتوجد رسوم قدرها 50 درهم.",
+    "citations": [
+      {
+        "source": "booking-and-cancellation.md",
+        "heading": "إلغاء الحجز وتعديله"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "إلغاء الحجز وتعديله",
+      "الحجز والمواعيد والإلغاء",
+      "خدمة الطوارئ",
+      "كيفية الحجز",
+      "أوقات العمل"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply matches the knowledge base: cancellation is done from the \"حجوزاتي\" page in the app or by replying to the confirmation message, it is free 24 hours or more before the appointment, and costs 50 AED if made less than 24 hours before. It adds no unsupported claims."
+}

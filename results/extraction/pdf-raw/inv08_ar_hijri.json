@@ -1,0 +1,57 @@
+{
+  "doc": "inv08_ar_hijri",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة رمال نجد للتوريدات",
+      "confidence": "medium",
+      "source_snippet": "تاديروتلل دجن لامر ةكرش"
+    },
+    "supplier_trn": {
+      "value": "310245678900003",
+      "confidence": "medium",
+      "source_snippet": "٣١٠٢٤٥٦٧٨٩٠٠٠٠٣ :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "RN-1448/44",
+      "confidence": "medium",
+      "source_snippet": "٤٤/١٤٤٨-RN :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-10-25",
+      "confidence": "medium",
+      "source_snippet": "م ٢٥/١٠/٢٠٢٦ قفاوملا ـه ١٤٤٨/٠٥/١٤ :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "مستشفى الرعاية الأولى",
+      "confidence": "medium",
+      "source_snippet": "ىلولأا ةياعرلا ىفشتسم :ليمعلا"
+    },
+    "currency": {
+      "value": "SAR",
+      "confidence": "high",
+      "source_snippet": "يدوعس لاير :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 2940,
+      "confidence": "high",
+      "source_snippet": "٢,٩٤٠.٠٠ ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 441,
+      "confidence": "high",
+      "source_snippet": "٤٤١.٠٠ ٪١٥ ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 3381,
+      "confidence": "high",
+      "source_snippet": "٣,٣٨١.٠٠ قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nتاديروتلل دجن لامر ةكرش\n٣١٠٢٤٥٦٧٨٩٠٠٠٠٣ :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\n٤٤/١٤٤٨-RN :ةروتافلا مقر\nم ٢٥/١٠/٢٠٢٦ قفاوملا ـه ١٤٤٨/٠٥/١٤ :ةروتافلا خيرات\nىلولأا ةياعرلا ىفشتسم :ليمعلا\nيدوعس لاير :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n٢,٢٢٠.٠٠ ١٨.٥٠ ١٢٠ ميقعت تامزلتسم ١\n٧٢٠.٠٠ ١٢.٠٠ ٦٠ ةيبط تايافن سايكأ ٢\n٢,٩٤٠.٠٠ ةبيرضلا لبق عومجملا\n٤٤١.٠٠ ٪١٥ ةفاضملا ةميقلا ةبيرض\n٣,٣٨١.٠٠ قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 8.9,
+  "input_tokens": 4309,
+  "output_tokens": 1346
+}

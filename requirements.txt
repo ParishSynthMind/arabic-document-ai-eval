@@ -1,0 +1,8 @@
+ai-document-extractor @ git+https://github.com/ParishSynthMind/ai-document-extractor@33abb7f
+anthropic>=2.0
+pdfplumber>=0.11
+pytesseract>=0.3.10
+python-bidi>=0.6
+pillow>=10.0
+numpy>=1.26
+PyYAML>=6.0

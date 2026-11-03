@@ -1,0 +1,57 @@
+{
+  "doc": "inv09_ar_lowres",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الأمانة للأدوات المكتبية",
+      "confidence": "medium",
+      "source_snippet": "ةيبتكملا تاودلأل ةناملأا ةسسؤم"
+    },
+    "supplier_trn": {
+      "value": "100311224400003",
+      "confidence": "high",
+      "source_snippet": "100311224400003 :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "AM-20817",
+      "confidence": "high",
+      "source_snippet": "AM-20817 :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-07-30",
+      "confidence": "high",
+      "source_snippet": "30/07/2026 :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "شركة الضياء للاستشارات",
+      "confidence": "medium",
+      "source_snippet": "تاراشتسلال ءايضلا ةكرش :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 1275,
+      "confidence": "high",
+      "source_snippet": "1,275.00 ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 63.75,
+      "confidence": "high",
+      "source_snippet": "63.75 ٪5 ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 1338.75,
+      "confidence": "high",
+      "source_snippet": "1,338.75 قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةيبتكملا تاودلأل ةناملأا ةسسؤم\n100311224400003 :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\nAM-20817 :ةروتافلا مقر\n30/07/2026 :ةروتافلا خيرات\nتاراشتسلال ءايضلا ةكرش :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n350.00 35.00 10 ةيبتكم ةسابد 1\n450.00 18.00 25 )ةبلع( فاج ربح ملاقأ 2\n475.00 9.50 50 تاظحلام رتافد 3\n1,275.00 ةبيرضلا لبق عومجملا\n63.75 ٪5 ةفاضملا ةميقلا ةبيرض\n1,338.75 قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 6.5,
+  "input_tokens": 4207,
+  "output_tokens": 1016
+}

@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "بقالة الخير",
+      "confidence": "high",
+      "source_snippet": "بقالة الخير"
+    },
+    "receipt_number": {
+      "value": "5531",
+      "confidence": "high",
+      "source_snippet": "رقم اإليصال: ٥٥٣١"
+    },
+    "receipt_date": {
+      "value": "2026-11-02",
+      "confidence": "high",
+      "source_snippet": "التاريخ: ٠٢/١١/٢٠٢٦"
+    },
+    "payment_method": {
+      "value": "cash",
+      "confidence": "high",
+      "source_snippet": "طريقة الدفع نقدًا"
+    },
+    "vat_amount": {
+      "value": 3.0,
+      "confidence": "high",
+      "source_snippet": "منها ضريبة القيمة المضافة ٥٪ ٣.٠٠"
+    },
+    "total_amount": {
+      "value": 63.0,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي شامل الضريبة درهم ٦٣.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nبقالة الخير\nفرع تجريبي - هاتف ٠٤ ٠٠٠ ٠٠٠٠\nرقم اإليصال: ٥٥٣١\nالتاريخ: ٠٢/١١/٢٠٢٦ الوقت: ١٨:٤٢\nحليب طازج ١ لتر ١٣.٥٠\n٢ × ٦.٧٥\nخبز عربي ٧.٥٠\n٣ × ٢.٥٠\nأرز بسمتي ٥ كجم ٤٢.٠٠\n١ × ٤٢.٠٠\nاإلجمالي شامل الضريبة درهم ٦٣.٠٠\nمنها ضريبة القيمة المضافة ٥٪ ٣.٠٠\nطريقة الدفع نقدًا\nشكرًا لزيارتكم",
+  "seconds": 4.5,
+  "input_tokens": 2723,
+  "output_tokens": 316
+}

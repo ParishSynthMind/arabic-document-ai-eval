@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "بقالة الخير",
+      "confidence": "high",
+      "source_snippet": "بقالة الخير"
+    },
+    "receipt_number": {
+      "value": "5531",
+      "confidence": "medium",
+      "source_snippet": "رقم الإيصال: ٥٥٣١"
+    },
+    "receipt_date": {
+      "value": "2026-11-02",
+      "confidence": "medium",
+      "source_snippet": "التاريخ: ٠٢/١١/٢٠٢٦"
+    },
+    "payment_method": {
+      "value": "cash",
+      "confidence": "high",
+      "source_snippet": "طريقة الدفع نقداً"
+    },
+    "vat_amount": {
+      "value": 3.0,
+      "confidence": "medium",
+      "source_snippet": "منها ضريبة القيمة المضافة ٥٪ ٣.٠٠"
+    },
+    "total_amount": {
+      "value": 63.0,
+      "confidence": "medium",
+      "source_snippet": "الإجمالي شامل الضريبة درهم ٦٣.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 2.9,
+  "input_tokens": 3759,
+  "output_tokens": 318
+}

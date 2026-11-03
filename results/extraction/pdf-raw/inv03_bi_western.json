@@ -1,0 +1,57 @@
+{
+  "doc": "inv03_bi_western",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة صقر الخليج للخدمات اللوجستية",
+      "confidence": "medium",
+      "source_snippet": "ةيتسجوللا تامدخلل جيلخلا رقص ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100512908700003",
+      "confidence": "high",
+      "source_snippet": "100512908700003 :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "GF-77812",
+      "confidence": "high",
+      "source_snippet": "GF-77812 :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-10-28",
+      "confidence": "high",
+      "source_snippet": "2026-10-28 :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "Desert Rose Trading FZE",
+      "confidence": "high",
+      "source_snippet": "Desert Rose Trading FZE :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :/ Currency"
+    },
+    "subtotal": {
+      "value": 4240,
+      "confidence": "high",
+      "source_snippet": "4,240.00 / Subtotal"
+    },
+    "vat_amount": {
+      "value": 212,
+      "confidence": "high",
+      "source_snippet": "212.00 5٪ / VAT"
+    },
+    "total_amount": {
+      "value": 4452,
+      "confidence": "high",
+      "source_snippet": "4,452.00 / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةيتسجوللا تامدخلل جيلخلا رقص ةكرش\nGulf Falcon Logistics Services LLC\n100512908700003 :/ Supplier TRN دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\n/ Tax Invoice ةيبيرض ةروتاف\nGF-77812 :/ Invoice No. ةروتافلا مقر\n2026-10-28 :/ Invoice date ةروتافلا خيرات\nDesert Rose Trading FZE :/ Customer ليمعلا\nيتارامإ مهرد :/ Currency ةلمعلا\n/ غلبملا / ةدحولا رعس / ةيمكلا / Description نايبلا #\nAmount Unit price Qty\n3,600.00 1,800.00 2 Road freight / يبظوبأ - يبد يرب نحش 1\nDubai - Abu Dhabi\n640.00 640.00 1 Storage (week) / (عوبسأ) نيزخت 2\n4,240.00 / Subtotal ةبيرضلا لبق عومجملا\n212.00 5٪ / VAT ةفاضملا ةميقلا ةبيرض\n4,452.00 / Total due قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 6.1,
+  "input_tokens": 4300,
+  "output_tokens": 784
+}

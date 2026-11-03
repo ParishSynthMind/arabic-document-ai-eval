@@ -1,0 +1,23 @@
+{
+  "question": {
+    "id": "q09",
+    "kind": "asks for a person",
+    "question": "أبي أكلم موظف لو سمحت",
+    "status": [
+      "needs_human"
+    ],
+    "section": null,
+    "facts": [],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "handover",
+    "reply": "بالتأكيد. اترك اسمك وبريدك الإلكتروني وسؤالك، وسيتواصل معك أحد أفراد الفريق.",
+    "citations": [],
+    "model_called": false,
+    "retrieved": []
+  },
+  "grounded": true,
+  "judge_reason": "fixed reply, no claims"
+}

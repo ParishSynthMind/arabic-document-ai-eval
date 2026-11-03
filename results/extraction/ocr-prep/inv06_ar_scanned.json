@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مطبعة الفجر الحديثة",
+      "confidence": "high",
+      "source_snippet": "مطبعة الفجر الحديثة"
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100923347100003"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "high",
+      "source_snippet": "رقم الفاتورة: ‎F-2026-0098‏"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 05/10/2026"
+    },
+    "customer_name": {
+      "value": "جمعية البر الخيرية",
+      "confidence": "high",
+      "source_snippet": "العميل: جمعية البر الخيرية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم ‎Jol‏"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "لمجموع قبل الصرية"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "127.50 75 ‏القيمة المضافة‎ dy pd"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Ea ‏المستحق‎ Jc"
+    }
+  },
+  "error": null,
+  "document_text": "مطبعة الفجر الحديثة\n\nالرقم الضريبي للمورد: 100923347100003\nالعنوان: شارع الميناء. مبنى ‎JE‏ المكتب ‎PT‏ - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎F-2026-0098‏\n‏تاريخ الفاتورة: 05/10/2026\nالعميل: جمعية البر الخيرية\nالعملة: درهم ‎Jol‏\n\nنيان 0-0 |القصية )7 _ |\n\nلمجموع قبل الصرية\n\n127.50 75 ‏القيمة المضافة‎ dy pd\nEa ‏المستحق‎ Jc\n\n‎(op‏ السداد خلال ‎logs ٠.‏ من تاريخ الفاتورة. هذه قاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.5,
+  "input_tokens": 4053,
+  "output_tokens": 465
+}

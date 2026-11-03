@@ -1,0 +1,57 @@
+{
+  "doc": "inv08_ar_hijri",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة رمال نجد للتوريدات",
+      "confidence": "high",
+      "source_snippet": "شركة رمال نجد للتوريدات"
+    },
+    "supplier_trn": {
+      "value": "310245678900003",
+      "confidence": "medium",
+      "source_snippet": "الرقم الضريبي للمورد: ٣١٠٢٤٥٦٧٨٩٠٠٠٠٣"
+    },
+    "invoice_number": {
+      "value": "RN-1448/44",
+      "confidence": "medium",
+      "source_snippet": "٤٤/١٤٤٨-RN"
+    },
+    "invoice_date": {
+      "value": "2026-10-25",
+      "confidence": "high",
+      "source_snippet": "١٤٤٨/٠٥/١٤ هـ الموافق ٢٥/١٠/٢٠٢٦ م"
+    },
+    "customer_name": {
+      "value": "مستشفى الرعاية الأولى",
+      "confidence": "high",
+      "source_snippet": "مستشفى الرعاية الأولى"
+    },
+    "currency": {
+      "value": "SAR",
+      "confidence": "high",
+      "source_snippet": "ريال سعودي"
+    },
+    "subtotal": {
+      "value": 2940.0,
+      "confidence": "high",
+      "source_snippet": "٢,٩٤٠.٠٠"
+    },
+    "vat_amount": {
+      "value": 441.0,
+      "confidence": "high",
+      "source_snippet": "٤٤١.٠٠"
+    },
+    "total_amount": {
+      "value": 3381.0,
+      "confidence": "high",
+      "source_snippet": "٣,٣٨١.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 4.3,
+  "input_tokens": 8540,
+  "output_tokens": 499
+}

@@ -1,0 +1,42 @@
+{
+  "doc": "rcp01_ar_western",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "مقهى الياسمين",
+      "confidence": "medium",
+      "source_snippet": "نيمسايلا ىهقم"
+    },
+    "receipt_number": {
+      "value": "R-88213",
+      "confidence": "medium",
+      "source_snippet": "R-88213 :لاصيلإا مقر"
+    },
+    "receipt_date": {
+      "value": "2026-10-30",
+      "confidence": "high",
+      "source_snippet": "30/10/2026 :خيراتلا"
+    },
+    "payment_method": {
+      "value": "card",
+      "confidence": "high",
+      "source_snippet": "/ىدم( نامتئا ةقاطب عفدلا ةقيرط"
+    },
+    "vat_amount": {
+      "value": 3.71,
+      "confidence": "high",
+      "source_snippet": "3.71 ةميقلا ةبيرض اهنم"
+    },
+    "total_amount": {
+      "value": 78.0,
+      "confidence": "high",
+      "source_snippet": "78.00 مهرد لماش يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nنيمسايلا ىهقم\n0000 000 04 فتاه - يبيرجت عرف\nR-88213 :لاصيلإا مقر\n18:42 :تقولا 30/10/2026 :خيراتلا\n30.00 ةيبرع ةوهق\n15.00 × 2\n24.00 كرك\n8.00 × 3\n24.00 رمت ةكعك\n12.00 × 2\n78.00 مهرد لماش يلامجلإا\nةبيرضلا\n3.71 ةميقلا ةبيرض اهنم\n٪5 ةفاضملا\n/ىدم( نامتئا ةقاطب عفدلا ةقيرط\n4417**** )ازيف\nمكترايزل اًركش",
+  "seconds": 5.1,
+  "input_tokens": 2681,
+  "output_tokens": 312
+}

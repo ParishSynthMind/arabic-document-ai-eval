@@ -1,0 +1,57 @@
+{
+  "doc": "inv04_bi_indic_monthname",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة البيان لتقنية المعلومات",
+      "confidence": "medium",
+      "source_snippet": "تامولعملا ةينقتل نايبلا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100678123400003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٦٧٨١٢٣٤٠٠٠٠٣ :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "BY-3309",
+      "confidence": "medium",
+      "source_snippet": "٣٣٠٩-BY :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-10-15",
+      "confidence": "medium",
+      "source_snippet": "٢٠٢٦ ربوتكأ ١٥ :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "مدرسة الأفق الخاصة",
+      "confidence": "medium",
+      "source_snippet": "ةصاخلا قفلأا ةسردم :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :/ Currency"
+    },
+    "subtotal": {
+      "value": 6300,
+      "confidence": "high",
+      "source_snippet": "٦,٣٠٠.٠٠ / Subtotal"
+    },
+    "vat_amount": {
+      "value": 315,
+      "confidence": "high",
+      "source_snippet": "٣١٥.٠٠ ٪٥ / VAT"
+    },
+    "total_amount": {
+      "value": 6615,
+      "confidence": "high",
+      "source_snippet": "٦,٦١٥.٠٠ / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nتامولعملا ةينقتل نايبلا ةكرش\nAl Bayan IT Company\n١٠٠٦٧٨١٢٣٤٠٠٠٠٣ :/ Supplier TRN دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\n/ Tax Invoice ةيبيرض ةروتاف\n٣٣٠٩-BY :/ Invoice No. ةروتافلا مقر\n٢٠٢٦ ربوتكأ ١٥ :/ Invoice date ةروتافلا خيرات\nةصاخلا قفلأا ةسردم :/ Customer ليمعلا\nيتارامإ مهرد :/ Currency ةلمعلا\n/ غلبملا / ةدحولا رعس / ةيمكلا / Description نايبلا #\nAmount Unit price Qty\n٤,٢٠٠.٠٠ ٤,٢٠٠.٠٠ ١ / )ةنس( ةبساحم جمانرب صيخرت ١\nAccounting software licence )1 year(\n٢,١٠٠.٠٠ ٣٥٠.٠٠ ٦ Staff training / نيفظوملا بيردت ٢\n٦,٣٠٠.٠٠ / Subtotal ةبيرضلا لبق عومجملا\n٣١٥.٠٠ ٪٥ / VAT ةفاضملا ةميقلا ةبيرض\n٦,٦١٥.٠٠ / Total due قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 6.8,
+  "input_tokens": 4397,
+  "output_tokens": 949
+}

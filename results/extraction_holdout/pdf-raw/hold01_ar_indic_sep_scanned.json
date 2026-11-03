@@ -1,0 +1,57 @@
+{
+  "doc": "hold01_ar_indic_sep_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الأفق الأخضر للمعدات الزراعية",
+      "confidence": "medium",
+      "source_snippet": "ةيعارزلا تادعملل رضخلأا قفلأا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100562718300003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٥٦٢٧١٨٣٠٠٠٠٣ :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "AK-7730",
+      "confidence": "medium",
+      "source_snippet": "٧٧٣٠-AK :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-09-14",
+      "confidence": "high",
+      "source_snippet": "١٤/٠٩/٢٠٢٦ :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "مزرعة الواحات الخضراء",
+      "confidence": "medium",
+      "source_snippet": "ءارضخلا تاحاولا ةعرزم :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 27512.5,
+      "confidence": "high",
+      "source_snippet": "٢٧٬٥١٢٫٥٠ ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 1375.62,
+      "confidence": "high",
+      "source_snippet": "١٬٣٧٥٫٦٢ ٪٥ ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 28888.12,
+      "confidence": "high",
+      "source_snippet": "٢٨٬٨٨٨٫١٢ قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةيعارزلا تادعملل رضخلأا قفلأا ةكرش\n١٠٠٥٦٢٧١٨٣٠٠٠٠٣ :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\n٧٧٣٠-AK :ةروتافلا مقر\n١٤/٠٩/٢٠٢٦ :ةروتافلا خيرات\nءارضخلا تاحاولا ةعرزم :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n١٧٬٢٥٠٫٠٠ ٢٬٨٧٥٫٠٠ ٦ ةيئابرهك ير ةخضم ١\n١٠٬٢٦٢٫٥٠ ٤١٠٫٥٠ ٢٥ )رتم ١٠٠ ةفل( ير بيبانأ ٢\n٢٧٬٥١٢٫٥٠ ةبيرضلا لبق عومجملا\n١٬٣٧٥٫٦٢ ٪٥ ةفاضملا ةميقلا ةبيرض\n٢٨٬٨٨٨٫١٢ قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 10.8,
+  "input_tokens": 4328,
+  "output_tokens": 1341
+}

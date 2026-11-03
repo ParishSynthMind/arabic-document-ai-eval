@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة المرجان للمعدات الطبية",
+      "confidence": "high",
+      "source_snippet": "شركة المرجان للمعدات الطبية"
+    },
+    "supplier_trn": {
+      "value": "100845561200003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: ١٠٠٨٤٥٥٦١٢٠٠٠٠٣"
+    },
+    "invoice_number": {
+      "value": "MR-1042",
+      "confidence": "high",
+      "source_snippet": "١٠٤٢-MR :رقم الفاتورة"
+    },
+    "invoice_date": {
+      "value": "2026-08-21",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: ٢١/٠٨/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "عيادة الشفاء التخصصية",
+      "confidence": "high",
+      "source_snippet": "العميل: عيادة الشفاء التخصصية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 10258.5,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة ١٠٬٢٥٨٫٥٠"
+    },
+    "vat_amount": {
+      "value": 512.92,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٥٪ ٥١٢٫٩٢"
+    },
+    "total_amount": {
+      "value": 10771.42,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق ١٠٬٧٧١٫٤٢"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nشركة المرجان للمعدات الطبية\nالرقم الضريبي للمورد: ١٠٠٨٤٥٥٦١٢٠٠٠٠٣\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\n١٠٤٢-MR :رقم الفاتورة\nتاريخ الفاتورة: ٢١/٠٨/٢٠٢٦\nالعميل: عيادة الشفاء التخصصية\nالعملة: درهم إماراتي\n# البيان الكمية سعر الوحدة المبلغ\n١ جهاز قياس ضغط رقمي ١٥ ١٨٩٫٩٠ ٢٬٨٤٨٫٥٠\n٢ سرير فحص طبي ٢ ٣٬٢٥٠٫٠٠ ٦٬٥٠٠٫٠٠\n٣ قفازات طبية (علبة) ٤٠ ٢٢٫٧٥ ٩١٠٫٠٠\nالمجموع قبل الضريبة ١٠٬٢٥٨٫٥٠\nضريبة القيمة المضافة ٥٪ ٥١٢٫٩٢\nاإلجمالي المستحق ١٠٬٧٧١٫٤٢\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.5,
+  "input_tokens": 4276,
+  "output_tokens": 547
+}

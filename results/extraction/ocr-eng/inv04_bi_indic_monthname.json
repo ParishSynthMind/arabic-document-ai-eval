@@ -1,0 +1,57 @@
+{
+  "doc": "inv04_bi_indic_monthname",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "Al Bayan IT Company",
+      "confidence": "medium",
+      "source_snippet": "Al Bayan IT Company"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "I-WVAIFPE....t +/ Supplier TRN 5jg0l) (u pall asl"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Pr.9-BY +/ Invoice No. 6gilaJl ad)"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "r.r gibi lo / Invoice date &ygilaJl 3y)U"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "anol Goll duro -/ Customer Juooll"
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Jo] 02) / Currency dloell"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "RH 2 / Subtotal dw pall Jub ggonall"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "PIO. 7.0 / VAT abla)! dard! du jus"
+    },
+    "total_amount": {
+      "value": 3710.0,
+      "confidence": "low",
+      "source_snippet": "3,710.0 / Total due aio! JLo dl"
+    }
+  },
+  "error": null,
+  "document_text": "Glogle od dud Jul ds pds\n\nAl Bayan IT Company\n\nI-WVAIFPE....t +/ Supplier TRN 5jg0l) (u pall asl\nGUIS Jlgie - Pr dbl! le Guo welizall gl :glgiell\n\n/ Tax Invoice duu ju6 609i lo\n\nPr.9-BY +/ Invoice No. 6gilaJl ad)\nr.r gibi lo / Invoice date &ygilaJl 3y)U\nanol Goll duro -/ Customer Juooll\nJo] 02) / Currency dloell\n/ gleali /6109)| youu / d10sJ1 / Description glu! | #\nAmount Unit price Qty\nAccounting software licence (1 year)\n[- Po... 1 Staff training / Jualdgoll wyysi | 1\nRH 2 / Subtotal dw pall Jub ggonall\nPIO. 7.0 / VAT abla)! dard! du jus\n3,710.0 / Total due aio! JLo dl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go logy I. Js slau! op\n",
+  "seconds": 3.0,
+  "input_tokens": 4132,
+  "output_tokens": 473
+}

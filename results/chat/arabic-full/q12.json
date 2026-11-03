@@ -1,0 +1,54 @@
+{
+  "question": {
+    "id": "q12",
+    "kind": "English question",
+    "question": "Do you have an emergency plumber at the weekend, and what does it cost?",
+    "status": [
+      "answered"
+    ],
+    "section": "خدمة الطوارئ",
+    "facts": [
+      [
+        "199"
+      ]
+    ],
+    "lang": "en"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "answered",
+    "reply": "Yes, our emergency plumbing and electrical service is available 24 hours a day, 7 days a week, including weekends and public holidays. The visit fee for an emergency call is 199 AED instead of the standard 99 AED. All prices include VAT.",
+    "citations": [
+      {
+        "source": "booking-and-cancellation.md",
+        "heading": "خدمة الطوارئ"
+      },
+      {
+        "source": "services-and-prices.md",
+        "heading": "خدمات وأسعار نخلة للصيانة المنزلية"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "الحجز والمواعيد والإلغاء",
+      "أوقات العمل",
+      "خدمة الطوارئ",
+      "كيفية الحجز",
+      "موعد وصول الفني",
+      "إلغاء الحجز وتعديله",
+      "خدمات وأسعار نخلة للصيانة المنزلية",
+      "تنظيف المكيفات",
+      "السباكة",
+      "الكهرباء",
+      "التنظيف العميق",
+      "المناطق التي نغطيها",
+      "الضمان والدفع",
+      "الضمان",
+      "طرق الدفع",
+      "الفواتير",
+      "الاسترداد"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply matches the knowledge base: emergency plumbing and electrical service is available 24/7 including weekends and public holidays, the emergency visit fee is 199 AED instead of 99 AED, and all prices include VAT."
+}

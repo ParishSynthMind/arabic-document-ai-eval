@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة المرجان للمعدات الطبية",
+      "confidence": "medium",
+      "source_snippet": "ةيبطلا تادعملل ناجرملا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100845561200003",
+      "confidence": "medium",
+      "source_snippet": "١٠٠٨٤٥٥٦١٢٠٠٠٠٣ :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "MR-1042",
+      "confidence": "medium",
+      "source_snippet": "١٠٤٢-MR :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-08-21",
+      "confidence": "medium",
+      "source_snippet": "٢١/٠٨/٢٠٢٦ :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "عيادة الشفاء التخصصية",
+      "confidence": "medium",
+      "source_snippet": "ةيصصختلا ءافشلا ةدايع :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 10258.5,
+      "confidence": "high",
+      "source_snippet": "١٠٬٢٥٨٫٥٠ ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 512.92,
+      "confidence": "high",
+      "source_snippet": "٥١٢٫٩٢ ٪٥ ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 10771.42,
+      "confidence": "high",
+      "source_snippet": "١٠٬٧٧١٫٤٢ قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةيبطلا تادعملل ناجرملا ةكرش\n١٠٠٨٤٥٥٦١٢٠٠٠٠٣ :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\n١٠٤٢-MR :ةروتافلا مقر\n٢١/٠٨/٢٠٢٦ :ةروتافلا خيرات\nةيصصختلا ءافشلا ةدايع :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n٢٬٨٤٨٫٥٠ ١٨٩٫٩٠ ١٥ يمقر طغض سايق زاهج ١\n٦٬٥٠٠٫٠٠ ٣٬٢٥٠٫٠٠ ٢ يبط صحف ريرس ٢\n٩١٠٫٠٠ ٢٢٫٧٥ ٤٠ )ةبلع( ةيبط تازافق ٣\n١٠٬٢٥٨٫٥٠ ةبيرضلا لبق عومجملا\n٥١٢٫٩٢ ٪٥ ةفاضملا ةميقلا ةبيرض\n١٠٬٧٧١٫٤٢ قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 8.3,
+  "input_tokens": 4348,
+  "output_tokens": 1164
+}

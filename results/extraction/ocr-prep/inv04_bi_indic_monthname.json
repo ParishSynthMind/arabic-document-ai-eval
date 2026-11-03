@@ -1,0 +1,57 @@
+{
+  "doc": "inv04_bi_indic_monthname",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة البيان لتقنية المعلومات",
+      "confidence": "high",
+      "source_snippet": "شركة البيان لتقنية المعلومات"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقفم الصريبي للمورد ‎VAITKE... -/ Supplier TRN‏ 1"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Pr.9-BY / Invoice No. ‏رقم الفاتورة‎"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "r.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎"
+    },
+    "customer_name": {
+      "value": "مدرسة الأفق الخاصة",
+      "confidence": "high",
+      "source_snippet": "‏مدرسة الأفق الخاصة‎ :/ Customer ‏العميل‎"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "medium",
+      "source_snippet": "Jol ‏درهم‎ :/ Currency ‏العملة‎"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Vee | / Subtotal ‏المجموع قبل الضريبة‎"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Plo. | 7.0 / VAT ‏ضريبة القيمة المضافة‎"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "20.0 | / Total due ‏الإجمالي المستحق‎"
+    }
+  },
+  "error": null,
+  "document_text": "شركة البيان لتقنية المعلومات\n\nAl Bayan IT Company\n\nالرقفم الصريبي للمورد ‎VAITKE... -/ Supplier TRN‏ 1\nالعنوان: شارع الميناء. ‎ie Guo‏ المكتب ‎\"١‏ - عنوان تجريبي\n\n/ Tax Invoice ‏فاتورة ضريبية‎\n\nPr.9-BY / Invoice No. ‏رقم الفاتورة‎\nr.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎\n‏مدرسة الأفق الخاصة‎ :/ Customer ‏العميل‎\n‎Jol ‏درهم‎ :/ Currency ‏العملة‎\n‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #\nAmount Unit price Qty\nElen ‏ترخيص برنامج محاسبة (سنة) / | ماع‎ ١ ١\nAccounting software licence (1 year)\nFlere | Fo... 1 Staff training / ‏تدريب الموظفين‎ | r |\nVee | / Subtotal ‏المجموع قبل الضريبة‎\nPlo. | 7.0 / VAT ‏ضريبة القيمة المضافة‎\n20.0 | / Total due ‏الإجمالي المستحق‎\n\nJW Ul ‏من تاريخ القاتورة هذه قاتورة تجريبية لأعراض‎ logs ٠. ‏السداد خلال‎ op\n\n",
+  "seconds": 4.1,
+  "input_tokens": 4304,
+  "output_tokens": 563
+}

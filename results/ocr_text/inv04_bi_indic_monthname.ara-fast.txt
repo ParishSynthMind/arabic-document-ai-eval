@@ -1,0 +1,23 @@
+شركة البيان لتقنية المعلومات
+
+Al Bayan IT Company
+
+|-TVAIPPE....# :/ Supplier TRN ‏الضريبي للمورد‎ aol
+‏عنوان تجريبي‎ - PP ‏المكتب‎ IE ‏العنوان: شارع الميناء. مبنى‎
+
+/ Tax Invoice ‏فاتورة ضريبية‎
+
+رقم الفاتورة ‎Invoice No.‏ / /0-81.سرسر
+تاريخ الفاتورة ‎Invoice date‏ / ها أكتوبر £71
+العميل ‎Customer‏ / مدرسة الأفق ‎Gold!‏
+‏العملة ‎Currency‏ / درهم ‎ALL]‏
+‏# | البيان ‎Description‏ / الكمية / سعر الوحدة / المبلغ /
+‎Amount Unit price Qty‏
+‎Accounting software licence (1 year)‏
+؟ | تدريب الموظفين / ‎Pyles Po... 1 Staff training‏
+المجموع قبل الضريبة ‎Subtotal‏ / ا
+ضريبة القيمة المضافة ‎VAT‏ /%0 11
+الإجمالي المستحق ‎/Total due‏ .5,10
+
+يرجى السداد خلال .ا ‎log‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار
+

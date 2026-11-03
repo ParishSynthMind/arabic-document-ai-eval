@@ -1,0 +1,57 @@
+{
+  "doc": "inv03_bi_western",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "Gulf Falcon Logistics Services LLC",
+      "confidence": "high",
+      "source_snippet": "Gulf Falcon Logistics Services LLC"
+    },
+    "supplier_trn": {
+      "value": "100512908700003",
+      "confidence": "high",
+      "source_snippet": "Supplier TRN‏ / 100512908700003"
+    },
+    "invoice_number": {
+      "value": "GF-77812",
+      "confidence": "high",
+      "source_snippet": "GF-77812 / Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-10-28",
+      "confidence": "high",
+      "source_snippet": "2026-10-28 / Invoice date"
+    },
+    "customer_name": {
+      "value": "Desert Rose Trading FZE",
+      "confidence": "high",
+      "source_snippet": "Desert Rose Trading FZE :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "medium",
+      "source_snippet": "‎Jol ‏درهم‎ :/ Currency"
+    },
+    "subtotal": {
+      "value": 4240.0,
+      "confidence": "high",
+      "source_snippet": "4,240.00 / Subtotal"
+    },
+    "vat_amount": {
+      "value": 212.0,
+      "confidence": "high",
+      "source_snippet": "212.00 57 / VAT"
+    },
+    "total_amount": {
+      "value": 4452.0,
+      "confidence": "high",
+      "source_snippet": "4,452.00 / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "Gulf Falcon Logistics Services LLC\n\nالرقم ‎_u pall‏ للمورد ‎Supplier TRN‏ / 100512908700003\nالعنوان: شارع الميناء. ‎ie Guo‏ المكتب ‎\"١‏ - عنوان تجريبي\n\n/ Tax Invoice ‏فاتورة ضريبية‎\n\nGF-77812 / Invoice No. ‏رقم الفاتورة‎\n2026-10-28 / Invoice date ‏تاريخ الفاتورة‎\nDesert Rose Trading FZE :/ Customer ‏العميل‎\n‎Jol ‏درهم‎ :/ Currency ‏العملة‎\n‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #\nAmount Unit price Qty\n3,600.00 1.800.00 2 Road freight / ‏دبي - أبوظبي‎ sp ‏شحن‎ | 1\n\"Dubai - Abu Dhabi\n640.00 640.00 1 Storage (week) / ‏تخزين (أسبوع)‎ | 2 |\n4,240.00 / Subtotal aw pall ‏لمجموع قبل‎\n212.00 57 / VAT ‏القيمة المضافة‎ aw uo\n4,452.00 / Total due ‏الإجمالي المستحق‎\n\nJW Ul ‏من تاريخ القاتورة هذه قاتورة تجريبية لأعراض‎ logs ٠. ‏السداد خلال‎ op\n\n",
+  "seconds": 3.5,
+  "input_tokens": 4292,
+  "output_tokens": 448
+}

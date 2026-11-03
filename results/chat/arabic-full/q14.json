@@ -1,0 +1,38 @@
+{
+  "question": {
+    "id": "q14",
+    "kind": "word forms differ from KB",
+    "question": "متى يوصل الفني عندي؟",
+    "status": [
+      "answered"
+    ],
+    "section": "موعد وصول الفني",
+    "facts": [
+      [
+        "ساعتان",
+        "ساعتين"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "answered",
+    "reply": "نحدد لك نافذة وصول مدتها ساعتان، ويتصل بك الفني قبل وصوله بثلاثين دقيقة. إذا أردت معرفة النافذة الزمنية المحددة لحجزك، يمكنني تحويل سؤالك إلى الفريق.",
+    "citations": [
+      {
+        "source": "booking-and-cancellation.md",
+        "heading": "موعد وصول الفني"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "موعد وصول الفني",
+      "طرق الدفع",
+      "الكهرباء",
+      "السباكة"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply repeats the knowledge base accurately: a two-hour arrival window and a call from the technician thirty minutes before arrival. Offering to pass the question about the specific window to the team is allowed and grants nothing unsupported."
+}

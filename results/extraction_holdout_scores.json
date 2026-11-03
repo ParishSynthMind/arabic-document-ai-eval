@@ -1,0 +1,1386 @@
+[
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة الأفق الأخضر للمعدات الزراعية",
+        "got": "شركة الأفق الأخضر للمعدات الزراعية",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100562718300003",
+        "got": "100562718300003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "AK-7730",
+        "got": "AK-7730",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-09-14",
+        "got": "2026-09-14",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "مزرعة الواحات الخضراء",
+        "got": "مزرعة الواحات الخضراء",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 27512.5,
+        "got": 27512.5,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 1375.62,
+        "got": 1375.62,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 28888.12,
+        "got": 28888.12,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 9,
+    "exact": 9,
+    "normalised": 9,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 0,
+    "flagged": 3,
+    "plus_flagged": 3,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة الأفق الأخضر للمعدات الزراعية",
+        "got": "شركة الأفق الأخضر للمعدات الزراعية",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100562718300003",
+        "got": "100562718300003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "AK-7730",
+        "got": "AK-7730",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-09-14",
+        "got": "2026-09-14",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "مزرعة الواحات الخضراء",
+        "got": "مزرعة الواحات الخضراء",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 27512.5,
+        "got": 27512.5,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 1375.62,
+        "got": 1375.62,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 28888.12,
+        "got": 28888.12,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold01_ar_indic_sep_scanned",
+    "method": "pdf-raw",
+    "error": null,
+    "input_tokens": 4328,
+    "output_tokens": 1341,
+    "seconds": 10.8
+  },
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة النور للأنظمة الأمنية",
+        "got": "Al Noor Security Systems LLC",
+        "confidence": "medium",
+        "exact": false,
+        "normalised": false,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100937261500003",
+        "got": "100937261500003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "NS/26-0417",
+        "got": "NS/26-0417",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-10-02",
+        "got": "2026-10-02",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "Marina Heights Owners Association",
+        "got": "Marina Heights Owners Association",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 14140.0,
+        "got": 14140.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 707.0,
+        "got": 707.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 14847.0,
+        "got": 14847.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 9,
+    "exact": 8,
+    "normalised": 8,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 1,
+    "flagged": 1,
+    "plus_flagged": 1,
+    "plus_wrong_unflagged": 1,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة النور للأنظمة الأمنية",
+        "got": "Al Noor Security Systems LLC",
+        "confidence": "medium",
+        "exact": false,
+        "normalised": false,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100937261500003",
+        "got": "100937261500003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "NS/26-0417",
+        "got": "NS/26-0417",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-10-02",
+        "got": "2026-10-02",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "Marina Heights Owners Association",
+        "got": "Marina Heights Owners Association",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 14140.0,
+        "got": 14140.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 707.0,
+        "got": 707.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 14847.0,
+        "got": 14847.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold02_bi_indic_ids",
+    "method": "pdf-raw",
+    "error": null,
+    "input_tokens": 4397,
+    "output_tokens": 517,
+    "seconds": 3.9
+  },
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "مؤسسة البناء المتين للمقاولات",
+        "got": "مؤسسة البناء المتين للمقاولات",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100418829600003",
+        "got": "100418829600003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "BM-2026-0093",
+        "got": "BM-2026-0093",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-07-07",
+        "got": "2026-07-07",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "شركة أبراج الخليج العقارية",
+        "got": "شركة أبراج الخليج العقارية",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 137700.0,
+        "got": 137700.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 6885.0,
+        "got": 6885.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 144585.0,
+        "got": 144585.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 9,
+    "exact": 9,
+    "normalised": 9,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 0,
+    "flagged": 3,
+    "plus_flagged": 3,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "مؤسسة البناء المتين للمقاولات",
+        "got": "مؤسسة البناء المتين للمقاولات",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100418829600003",
+        "got": "100418829600003",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "BM-2026-0093",
+        "got": "BM-2026-0093",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-07-07",
+        "got": "2026-07-07",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "شركة أبراج الخليج العقارية",
+        "got": "شركة أبراج الخليج العقارية",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 137700.0,
+        "got": 137700.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 6885.0,
+        "got": 6885.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 144585.0,
+        "got": 144585.0,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold03_ar_indic_sep_clean",
+    "method": "pdf-raw",
+    "error": null,
+    "input_tokens": 4341,
+    "output_tokens": 1121,
+    "seconds": 7.8
+  },
+  {
+    "rows": [
+      {
+        "field": "licence_number",
+        "expected": "CN-6618204",
+        "got": "CN-6618204",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_ar",
+        "expected": "لمسة الإبداع للديكور",
+        "got": "لمسة الإبداع للديكور",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_en",
+        "expected": "CREATIVE TOUCH DECOR",
+        "got": "CREATIVE TOUCH DECOR",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "legal_form",
+        "expected": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "got": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "main_activity",
+        "expected": "أعمال الديكور الداخلي",
+        "got": "أعمال الديكور الداخلي",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "issue_date",
+        "expected": "2025-06-22",
+        "got": "2025-06-22",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "expiry_date",
+        "expected": "2026-06-21",
+        "got": "2026-06-21",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 7,
+    "exact": 7,
+    "normalised": 7,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 0,
+    "flagged": 4,
+    "plus_flagged": 4,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "licence_number",
+        "expected": "CN-6618204",
+        "got": "CN-6618204",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_ar",
+        "expected": "لمسة الإبداع للديكور",
+        "got": "لمسة الإبداع للديكور",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_en",
+        "expected": "CREATIVE TOUCH DECOR",
+        "got": "CREATIVE TOUCH DECOR",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "legal_form",
+        "expected": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "got": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "main_activity",
+        "expected": "أعمال الديكور الداخلي",
+        "got": "أعمال الديكور الداخلي",
+        "confidence": "low",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "issue_date",
+        "expected": "2025-06-22",
+        "got": "2025-06-22",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "expiry_date",
+        "expected": "2026-06-21",
+        "got": "2026-06-21",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold04_lic_indic_scanned",
+    "method": "pdf-raw",
+    "error": null,
+    "input_tokens": 3278,
+    "output_tokens": 533,
+    "seconds": 4.1
+  },
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة الأفق الأخضر للمعدات الزراعية",
+        "got": "شركة الأفق الأخضر للمعدات الزراعية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100562718300003",
+        "got": "300378172650",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "invoice_number",
+        "expected": "AK-7730",
+        "got": "AK-0377",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-09-14",
+        "got": "2026-09-14",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "مزرعة الواحات الخضراء",
+        "got": "مزرعة الواحات الخضراء",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 27512.5,
+        "got": 27051250,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "vat_amount",
+        "expected": 1375.62,
+        "got": 1352562.5,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "total_amount",
+        "expected": 28888.12,
+        "got": 28403812.5,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      }
+    ],
+    "total": 9,
+    "exact": 4,
+    "normalised": 4,
+    "wrong_flagged": 5,
+    "wrong_unflagged": 0,
+    "flagged": 5,
+    "plus_flagged": 5,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة الأفق الأخضر للمعدات الزراعية",
+        "got": "شركة الأفق الأخضر للمعدات الزراعية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100562718300003",
+        "got": "300378172650",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "invoice_number",
+        "expected": "AK-7730",
+        "got": "AK-0377",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-09-14",
+        "got": "2026-09-14",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "مزرعة الواحات الخضراء",
+        "got": "مزرعة الواحات الخضراء",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 27512.5,
+        "got": 27051250,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "vat_amount",
+        "expected": 1375.62,
+        "got": 1352562.5,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "total_amount",
+        "expected": 28888.12,
+        "got": 28403812.5,
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      }
+    ],
+    "doc": "hold01_ar_indic_sep_scanned",
+    "method": "vision",
+    "error": null,
+    "input_tokens": 8563,
+    "output_tokens": 498,
+    "seconds": 7.1
+  },
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة النور للأنظمة الأمنية",
+        "got": "شركة النور للأنظمة الأمنية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100937261500003",
+        "got": "100937261500003",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "NS/26-0417",
+        "got": "NS/26-0417",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-10-02",
+        "got": "2026-10-02",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "Marina Heights Owners Association",
+        "got": "Marina Heights Owners Association",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 14140.0,
+        "got": 14140,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 707.0,
+        "got": 707,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 14847.0,
+        "got": 14847,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 9,
+    "exact": 9,
+    "normalised": 9,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 0,
+    "flagged": 0,
+    "plus_flagged": 2,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "شركة النور للأنظمة الأمنية",
+        "got": "شركة النور للأنظمة الأمنية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100937261500003",
+        "got": "100937261500003",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_number",
+        "expected": "NS/26-0417",
+        "got": "NS/26-0417",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-10-02",
+        "got": "2026-10-02",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "Marina Heights Owners Association",
+        "got": "Marina Heights Owners Association",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 14140.0,
+        "got": 14140,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 707.0,
+        "got": 707,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 14847.0,
+        "got": 14847,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold02_bi_indic_ids",
+    "method": "vision",
+    "error": null,
+    "input_tokens": 8540,
+    "output_tokens": 1471,
+    "seconds": 11.4
+  },
+  {
+    "rows": [
+      {
+        "field": "supplier_name",
+        "expected": "مؤسسة البناء المتين للمقاولات",
+        "got": "مؤسسة البناء المتين للمقاولات",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100418829600003",
+        "got": "100418829600003",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_number",
+        "expected": "BM-2026-0093",
+        "got": "BM-2026-0093",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-07-07",
+        "got": "2026-07-07",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "شركة أبراج الخليج العقارية",
+        "got": "شركة أبراج الخليج العقارية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 137700.0,
+        "got": 137700,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 6885.0,
+        "got": 6885,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 144585.0,
+        "got": 144585,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 9,
+    "exact": 9,
+    "normalised": 9,
+    "wrong_flagged": 0,
+    "wrong_unflagged": 0,
+    "flagged": 0,
+    "plus_flagged": 2,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "supplier_name",
+        "expected": "مؤسسة البناء المتين للمقاولات",
+        "got": "مؤسسة البناء المتين للمقاولات",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "supplier_trn",
+        "expected": "100418829600003",
+        "got": "100418829600003",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_number",
+        "expected": "BM-2026-0093",
+        "got": "BM-2026-0093",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": true
+      },
+      {
+        "field": "invoice_date",
+        "expected": "2026-07-07",
+        "got": "2026-07-07",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "customer_name",
+        "expected": "شركة أبراج الخليج العقارية",
+        "got": "شركة أبراج الخليج العقارية",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "currency",
+        "expected": "AED",
+        "got": "AED",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "subtotal",
+        "expected": 137700.0,
+        "got": 137700,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "vat_amount",
+        "expected": 6885.0,
+        "got": 6885,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "total_amount",
+        "expected": 144585.0,
+        "got": 144585,
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold03_ar_indic_sep_clean",
+    "method": "vision",
+    "error": null,
+    "input_tokens": 8540,
+    "output_tokens": 1383,
+    "seconds": 11.1
+  },
+  {
+    "rows": [
+      {
+        "field": "licence_number",
+        "expected": "CN-6618204",
+        "got": "CN-4026117",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_ar",
+        "expected": "لمسة الإبداع للديكور",
+        "got": "لمسة الإبداع للديكور",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "trade_name_en",
+        "expected": "CREATIVE TOUCH DECOR",
+        "got": "CREATIVE TOUCH DECOR",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "legal_form",
+        "expected": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "got": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "main_activity",
+        "expected": "أعمال الديكور الداخلي",
+        "got": "أعمال الديكور الداخلي",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "issue_date",
+        "expected": "2025-06-22",
+        "got": "2025-06-22",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "expiry_date",
+        "expected": "2026-06-21",
+        "got": "2026-06-21",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "total": 7,
+    "exact": 6,
+    "normalised": 6,
+    "wrong_flagged": 1,
+    "wrong_unflagged": 0,
+    "flagged": 1,
+    "plus_flagged": 1,
+    "plus_wrong_unflagged": 0,
+    "plus_rows": [
+      {
+        "field": "licence_number",
+        "expected": "CN-6618204",
+        "got": "CN-4026117",
+        "confidence": "low",
+        "exact": false,
+        "normalised": false,
+        "flagged": true
+      },
+      {
+        "field": "trade_name_ar",
+        "expected": "لمسة الإبداع للديكور",
+        "got": "لمسة الإبداع للديكور",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "trade_name_en",
+        "expected": "CREATIVE TOUCH DECOR",
+        "got": "CREATIVE TOUCH DECOR",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "legal_form",
+        "expected": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "got": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "main_activity",
+        "expected": "أعمال الديكور الداخلي",
+        "got": "أعمال الديكور الداخلي",
+        "confidence": "high",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "issue_date",
+        "expected": "2025-06-22",
+        "got": "2025-06-22",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      },
+      {
+        "field": "expiry_date",
+        "expected": "2026-06-21",
+        "got": "2026-06-21",
+        "confidence": "medium",
+        "exact": true,
+        "normalised": true,
+        "flagged": false
+      }
+    ],
+    "doc": "hold04_lic_indic_scanned",
+    "method": "vision",
+    "error": null,
+    "input_tokens": 7653,
+    "output_tokens": 409,
+    "seconds": 7.2
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "question": {
+    "id": "q01",
+    "kind": "price",
+    "question": "كم سعر تنظيف المكيف السبليت؟",
+    "status": [
+      "answered"
+    ],
+    "section": "تنظيف المكيفات",
+    "facts": [
+      [
+        "150"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "تنظيف مكيف السبليت بـ 150 درهم للوحدة الواحدة، والسعر يشمل ضريبة القيمة المضافة. يشمل التنظيف غسل الفلاتر والملف الداخلي وفحص تصريف المياه. وإذا حجزت 4 وحدات أو أكثر في الزيارة نفسها تحصل على خصم 10%.",
+    "citations": [
+      {
+        "source": "services-and-prices.md",
+        "heading": "تنظيف المكيفات"
+      },
+      {
+        "source": "services-and-prices.md",
+        "heading": "خدمات وأسعار نخلة للصيانة المنزلية"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "تنظيف المكيفات",
+      "الضمان",
+      "التنظيف العميق",
+      "خدمات وأسعار نخلة للصيانة المنزلية"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "All claims match the knowledge base: split AC cleaning is 150 AED per unit, prices include VAT, the service covers washing filters, the indoor coil and checking drainage, and booking 4 or more units in one visit gives a 10% discount."
+}

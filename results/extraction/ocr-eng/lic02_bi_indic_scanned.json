@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "F 0OFIAVI-CN / Licence No."
+    },
+    "trade_name_ar": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR CONTRACTING",
+      "confidence": "medium",
+      "source_snippet": "EASTERN STAR CONTRACTING"
+    },
+    "legal_form": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "main_activity": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "issue_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "8/4/rro / Issue date"
+    },
+    "expiry_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "FIAR/0 | / Expiry date"
+    }
+  },
+  "error": null,
+  "document_text": "dolgll diya - dyslais ul doi! iso\n\nOasis City Economic Office (fictional authority)\n\n/ Commercial Licence dyylaj duns J\n\nF 0OFIAVI-CN / Licence No. das 1 08 s |\nSUglaol) Guiul dani | / Trade name sla Awl |\nEASTERN STAR CONTRACTING : :\nW140 Auuwgo / Legal form S9laI JSdul\n- Juall Giglio | /Main activity Gulp! bli\ni\n\n8/4/rro / Issue date jlao Ul Aust\n4\n\n+ i .\nFIAR/0 | / Expiry date claiiyl roa\n\n448182 410985 da sl ge 8)3lio Cul hbo 0 JUS UI gAIsel din 390) daly 630\n",
+  "seconds": 2.2,
+  "input_tokens": 3124,
+  "output_tokens": 282
+}

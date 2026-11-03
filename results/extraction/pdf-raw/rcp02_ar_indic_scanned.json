@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "بقالة الخير",
+      "confidence": "medium",
+      "source_snippet": "ريخلا ةلاقب"
+    },
+    "receipt_number": {
+      "value": "5531",
+      "confidence": "medium",
+      "source_snippet": "٥٥٣١ :لاصيلإا مقر"
+    },
+    "receipt_date": {
+      "value": "2026-11-02",
+      "confidence": "medium",
+      "source_snippet": "٠٢/١١/٢٠٢٦ :خيراتلا"
+    },
+    "payment_method": {
+      "value": "cash",
+      "confidence": "high",
+      "source_snippet": "اًدقن عفدلا ةقيرط"
+    },
+    "vat_amount": {
+      "value": 3.0,
+      "confidence": "high",
+      "source_snippet": "٣.٠٠ ٪٥ ةفاضملا ةميقلا ةبيرض اهنم"
+    },
+    "total_amount": {
+      "value": 63.0,
+      "confidence": "high",
+      "source_snippet": "٦٣.٠٠ مهرد ةبيرضلا لماش يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nريخلا ةلاقب\n٠٠٠٠ ٠٠٠ ٠٤ فتاه - يبيرجت عرف\n٥٥٣١ :لاصيلإا مقر\n١٨:٤٢ :تقولا ٠٢/١١/٢٠٢٦ :خيراتلا\n١٣.٥٠ رتل ١ جزاط بيلح\n٦.٧٥ × ٢\n٧.٥٠ يبرع زبخ\n٢.٥٠ × ٣\n٤٢.٠٠ مجك ٥ يتمسب زرأ\n٤٢.٠٠ × ١\n٦٣.٠٠ مهرد ةبيرضلا لماش يلامجلإا\n٣.٠٠ ٪٥ ةفاضملا ةميقلا ةبيرض اهنم\nاًدقن عفدلا ةقيرط\nمكترايزل اًركش",
+  "seconds": 9.6,
+  "input_tokens": 2749,
+  "output_tokens": 1125
+}

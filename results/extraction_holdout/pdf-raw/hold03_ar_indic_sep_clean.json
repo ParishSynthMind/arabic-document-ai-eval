@@ -1,0 +1,57 @@
+{
+  "doc": "hold03_ar_indic_sep_clean",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة البناء المتين للمقاولات",
+      "confidence": "medium",
+      "source_snippet": "تلاواقملل نيتملا ءانبلا ةسسؤم"
+    },
+    "supplier_trn": {
+      "value": "100418829600003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٤١٨٨٢٩٦٠٠٠٠٣ :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "BM-2026-0093",
+      "confidence": "medium",
+      "source_snippet": "٠٠٩٣-٢٠٢٦-BM :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-07-07",
+      "confidence": "high",
+      "source_snippet": "٠٧/٠٧/٢٠٢٦ :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "شركة أبراج الخليج العقارية",
+      "confidence": "medium",
+      "source_snippet": "ةيراقعلا جيلخلا جاربأ ةكرش :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 137700.0,
+      "confidence": "high",
+      "source_snippet": "١٣٧٬٧٠٠٫٠٠ ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 6885.0,
+      "confidence": "high",
+      "source_snippet": "٦٬٨٨٥٫٠٠ ٪٥ ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 144585.0,
+      "confidence": "high",
+      "source_snippet": "١٤٤٬٥٨٥٫٠٠ قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nتلاواقملل نيتملا ءانبلا ةسسؤم\n١٠٠٤١٨٨٢٩٦٠٠٠٠٣ :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\n٠٠٩٣-٢٠٢٦-BM :ةروتافلا مقر\n٠٧/٠٧/٢٠٢٦ :ةروتافلا خيرات\nةيراقعلا جيلخلا جاربأ ةكرش :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n٩٣٬٦٠٠٫٠٠ ٥٢٠٫٠٠ ١٨٠ )بعكم رتم( ةناسرخ لامعأ ١\n٤٤٬١٠٠٫٠٠ ٣٬١٥٠٫٠٠ ١٤ )نط( حيلست ديدح ٢\n١٣٧٬٧٠٠٫٠٠ ةبيرضلا لبق عومجملا\n٦٬٨٨٥٫٠٠ ٪٥ ةفاضملا ةميقلا ةبيرض\n١٤٤٬٥٨٥٫٠٠ قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 7.8,
+  "input_tokens": 4341,
+  "output_tokens": 1121
+}

@@ -1,0 +1,26 @@
+{
+  "question": {
+    "id": "q08",
+    "kind": "not in KB",
+    "question": "هل تبيعون قطع غيار للسيارات؟",
+    "status": [
+      "not_in_knowledge_base"
+    ],
+    "section": null,
+    "facts": [],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "not_in_knowledge_base",
+    "reply": "عذراً، لا تتوفر لدي معلومات عن بيع قطع غيار السيارات. المتوفر لدي يخص خدمات الصيانة المنزلية فقط. هل تريد أن أحوّل سؤالك إلى فريقنا؟",
+    "citations": [],
+    "model_called": true,
+    "retrieved": [
+      "الضمان",
+      "الكهرباء"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply says it has no information about selling car spare parts, states that its information covers home maintenance services only (consistent with the knowledge base), and offers to pass the question to the team. It makes no unsupported claims or promises."
+}

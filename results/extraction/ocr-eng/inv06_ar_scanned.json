@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "medium",
+      "source_snippet": "100923347100003 3jg0l up| asl"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "medium",
+      "source_snippet": "F-2026-0098"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "low",
+      "source_snippet": "05/10/2026 :6)gilall Ay)"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": 2550.0,
+      "confidence": "medium",
+      "source_snippet": "2,550.00 aw All Jub ggoaall"
+    },
+    "vat_amount": {
+      "value": 127.5,
+      "confidence": "medium",
+      "source_snippet": "127.50 £5 a0LAol dasa] dw ud"
+    },
+    "total_amount": {
+      "value": 2677.5,
+      "confidence": "medium",
+      "source_snippet": "| 2677.50  @aiwall Jlasyl"
+    }
+  },
+  "error": null,
+  "document_text": "100923347100003 3jg0l up| asl\nHIRI Jlgie - Ir Lika! JE Guo clivall elu :glgiell\n\ndub 8)\n\nF-2026-0098\n\n:6)gilall a5)\n05/10/2026 :6)gilall Ay)\nall pl denn Jrooll\nJol 08) aloo\nglad 61591 youu EPPO]\n2,100.00 4.20 500\nSl\n450.00 450.00 1\nL Fs\n2,550.00 aw All Jub ggoaall\n127.50 £5 a0LAol dasa] dw ud\n| ER\n| 2677.50  @aiwall Jlasyl\n\nJUBI JOIED dy 125/6)93L6 038 .8)gilall 2). logs Jil slau] Loy\n",
+  "seconds": 2.9,
+  "input_tokens": 4005,
+  "output_tokens": 388
+}

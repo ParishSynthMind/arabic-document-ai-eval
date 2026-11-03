@@ -1,0 +1,57 @@
+{
+  "doc": "inv02_ar_indic",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    }
+  },
+  "error": null,
+  "document_text": "dub asJl ojos il Ju! duuwgo\nI FPAVIFE... 25 yg0l) Gu pall adyll\n\nday p16 049i Lo\n\nr.r/IA :6)gilall pd)\n\n9/00 :8)gilall au)G\n\ncy PI 6331 Gadd Janell\nJol po) :aoell\n\nalll | 8a09)l youu das gut | #\n\n£0. | 1,€0- oe P Udo 1,0 cud wido |\n\nVo... | [0n.mr p Jueiuig cus) r\n\n0,lee.e dw pall Jud ggoaoll\n\n00... 7.0 doll! doudll dw uo\n\n0,/°00.+¢ Gaduoll Joo yl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go log Po JUS shad! op\n",
+  "seconds": 2.2,
+  "input_tokens": 4022,
+  "output_tokens": 260
+}

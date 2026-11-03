@@ -1,0 +1,57 @@
+{
+  "doc": "inv09_ar_lowres",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة األمانة لألدوات المكتبية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة األمانة لألدوات المكتبية"
+    },
+    "supplier_trn": {
+      "value": "100311224400003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100311224400003"
+    },
+    "invoice_number": {
+      "value": "AM-20817",
+      "confidence": "high",
+      "source_snippet": "AM-20817 :رقم الفاتورة"
+    },
+    "invoice_date": {
+      "value": "2026-07-30",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 30/07/2026"
+    },
+    "customer_name": {
+      "value": "شركة الضياء لالستشارات",
+      "confidence": "high",
+      "source_snippet": "العميل: شركة الضياء لالستشارات"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 1275.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة 1,275.00"
+    },
+    "vat_amount": {
+      "value": 63.75,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٪5 63.75"
+    },
+    "total_amount": {
+      "value": 1338.75,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق 1,338.75"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nمؤسسة األمانة لألدوات المكتبية\nالرقم الضريبي للمورد: 100311224400003\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\nAM-20817 :رقم الفاتورة\nتاريخ الفاتورة: 30/07/2026\nالعميل: شركة الضياء لالستشارات\nالعملة: درهم إماراتي\n# البيان الكمية سعر الوحدة المبلغ\n1 دباسة مكتبية 10 35.00 350.00\n2 أقالم حبر جاف (علبة) 25 18.00 450.00\n3 دفاتر مالحظات 50 9.50 475.00\nالمجموع قبل الضريبة 1,275.00\nضريبة القيمة المضافة ٪5 63.75\nاإلجمالي المستحق 1,338.75\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.4,
+  "input_tokens": 4130,
+  "output_tokens": 482
+}

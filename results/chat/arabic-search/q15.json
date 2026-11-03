@@ -1,0 +1,40 @@
+{
+  "question": {
+    "id": "q15",
+    "kind": "policy",
+    "question": "في ضمان على تركيب السخان؟",
+    "status": [
+      "answered"
+    ],
+    "section": "الضمان",
+    "facts": [
+      [
+        "6",
+        "سته",
+        "ستة"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "نعم، يوجد ضمان 6 أشهر على أجرة تركيب سخانات المياه. يرجى العلم أن الضمان لا يشمل قطع الغيار التي يوفرها العميل بنفسه.",
+    "citations": [
+      {
+        "source": "warranty-and-payments.md",
+        "heading": "الضمان"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "الضمان",
+      "السباكة",
+      "الضمان والدفع",
+      "الكهرباء",
+      "الفواتير"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply states a 6-month warranty on water heater installation fees and that the warranty excludes spare parts supplied by the customer. Both claims match the knowledge base."
+}

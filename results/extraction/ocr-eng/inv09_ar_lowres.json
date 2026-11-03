@@ -1,0 +1,57 @@
+{
+  "doc": "inv09_ar_lowres",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": "100311224400003",
+      "confidence": "medium",
+      "source_snippet": "100311224400003 13500) Lup! adyll"
+    },
+    "invoice_number": {
+      "value": "AM-20817",
+      "confidence": "medium",
+      "source_snippet": "AM-20817 Sigil pty"
+    },
+    "invoice_date": {
+      "value": "2026-07-30",
+      "confidence": "medium",
+      "source_snippet": "30/07/2026 Byala 0"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": 1275.0,
+      "confidence": "medium",
+      "source_snippet": "1275.00 aupall Jib gana"
+    },
+    "vat_amount": {
+      "value": 63.75,
+      "confidence": "low",
+      "source_snippet": "7s 5 @5Lall dosdll dnd"
+    },
+    "total_amount": {
+      "value": 1338.75,
+      "confidence": "medium",
+      "source_snippet": "1338.75 Saiusall Jaz gl"
+    }
+  },
+  "error": null,
+  "document_text": "uisoll Olga il &ilo dl duo\n100311224400003 13500) Lup! adyll\nua glgie - Mr idol JE Gio clinall Ui glgiell\n\nA pid 8936\nAM-20817 Sigil pty\n30/07/2026 Byala 0\nOita eluAll asp Jiao!\ntol pays aloall\nflat S209! youu pre ld I]\n350.00 35.00 0 aio duly 1\n450.00 18.00 25 (&ulc) Blo po puts 2\n475.00 950 50 Slots jes 3\n1275.00 aupall Jib gana\n7s 5 @5Lall dosdll dnd\n1338.75 Saiusall Jaz gl\n\nSUES GAIED pa 506 030 ygilall 220 0 logy #: Jus slau] Lop\n",
+  "seconds": 2.8,
+  "input_tokens": 4019,
+  "output_tokens": 378
+}

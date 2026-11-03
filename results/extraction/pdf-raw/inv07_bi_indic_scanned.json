@@ -1,0 +1,57 @@
+{
+  "doc": "inv07_bi_indic_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الصحراء الذهبية للسياحة",
+      "confidence": "medium",
+      "source_snippet": "ةحايسلل ةيبهذلا ءارحصلا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100456789100003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٤٥٦٧٨٩١٠٠٠٠٣ :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "GDT-5521",
+      "confidence": "medium",
+      "source_snippet": "٥٥٢١-GDT :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-11-01",
+      "confidence": "high",
+      "source_snippet": "٠١/١١/٢٠٢٦ :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "Blue Horizon Events LLC",
+      "confidence": "high",
+      "source_snippet": "Blue Horizon Events LLC :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :/ Currency"
+    },
+    "subtotal": {
+      "value": 8880,
+      "confidence": "high",
+      "source_snippet": "٨,٨٨٠.٠٠ / Subtotal"
+    },
+    "vat_amount": {
+      "value": 444,
+      "confidence": "high",
+      "source_snippet": "٤٤٤.٠٠ ٪٥ / VAT"
+    },
+    "total_amount": {
+      "value": 9324,
+      "confidence": "high",
+      "source_snippet": "٩,٣٢٤.٠٠ / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةحايسلل ةيبهذلا ءارحصلا ةكرش\nGolden Desert Tourism Co.\n١٠٠٤٥٦٧٨٩١٠٠٠٠٣ :/ Supplier TRN دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\n/ Tax Invoice ةيبيرض ةروتاف\n٥٥٢١-GDT :/ Invoice No. ةروتافلا مقر\n٠١/١١/٢٠٢٦ :/ Invoice date ةروتافلا خيرات\nBlue Horizon Events LLC :/ Customer ليمعلا\nيتارامإ مهرد :/ Currency ةلمعلا\n/ غلبملا / Unit ةدحولا رعس / ةيمكلا / Description نايبلا #\nAmount price Qty\n٦,٦٠٠.٠٠ ٢٧٥.٠٠ ٢٤ Desert / ةيوارحص يرافس ةلحر ١\nsafari\n٢,٢٨٠.٠٠ ٩٥.٠٠ ٢٤ Bedouin dinner / يودب ءاشع ٢\n٨,٨٨٠.٠٠ / Subtotal ةبيرضلا لبق عومجملا\n٤٤٤.٠٠ ٪٥ / VAT ةفاضملا ةميقلا ةبيرض\n٩,٣٢٤.٠٠ / Total due قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 8.3,
+  "input_tokens": 4386,
+  "output_tokens": 1162
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv04_bi_indic_monthname",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة البيان لتقنية المعلومات",
+      "confidence": "high",
+      "source_snippet": "شركة البيان لتقنية المعلومات"
+    },
+    "supplier_trn": {
+      "value": "100678123400003",
+      "confidence": "medium",
+      "source_snippet": "١٠٠٦٧٨١٢٣٤٠٠٠٠٣ :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "3309-BY",
+      "confidence": "medium",
+      "source_snippet": "٣٣٠٩-BY"
+    },
+    "invoice_date": {
+      "value": "2026-10-15",
+      "confidence": "high",
+      "source_snippet": "١٥ أكتوبر ٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "مدرسة الأفق الخاصة",
+      "confidence": "high",
+      "source_snippet": "مدرسة الأفق الخاصة"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 6300,
+      "confidence": "high",
+      "source_snippet": "٦,٣٠٠.٠٠"
+    },
+    "vat_amount": {
+      "value": 315,
+      "confidence": "high",
+      "source_snippet": "٣١٥.٠٠"
+    },
+    "total_amount": {
+      "value": 6615,
+      "confidence": "high",
+      "source_snippet": "٦,٦١٥.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 8.3,
+  "input_tokens": 8540,
+  "output_tokens": 459
+}

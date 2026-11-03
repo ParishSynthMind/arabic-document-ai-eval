@@ -1,0 +1,57 @@
+{
+  "doc": "inv03_bi_western",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة صقر الخليج للخدمات اللوجستية",
+      "confidence": "high",
+      "source_snippet": "شركة صقر الخليج للخدمات اللوجستية"
+    },
+    "supplier_trn": {
+      "value": "100512908700003",
+      "confidence": "high",
+      "source_snippet": "100512908700003 :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "GF-77812",
+      "confidence": "high",
+      "source_snippet": "GF-77812 :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-08-10",
+      "confidence": "low",
+      "source_snippet": "2026-10-8 :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "Desert Rose Trading FZE",
+      "confidence": "high",
+      "source_snippet": "Desert Rose Trading FZE :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "‏درهم‎ :/ Currency"
+    },
+    "subtotal": {
+      "value": 4240.0,
+      "confidence": "high",
+      "source_snippet": "4,240.00 / Subtotal"
+    },
+    "vat_amount": {
+      "value": 212.0,
+      "confidence": "high",
+      "source_snippet": "212.00 57 / VAT"
+    },
+    "total_amount": {
+      "value": 4452.0,
+      "confidence": "high",
+      "source_snippet": "4,452.00 / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "شركة صقر الخليج للخدمات اللوجستية\n\nGulf Falcon Logistics Services LLC\n100512908700003 :/ Supplier TRN ‏للمورد‎ Lu pall ‏الرقم‎\n\n/ Tax Invoice ‏فاتورة ضريبية‎\n\nGF-77812 :/ Invoice No. ‏رقم الفاتورة‎\n2026-10-8 :/ Invoice date ‏تاريخ الفاتورة‎\nDesert Rose Trading FZE :/ Customer ‏العميل‎\n‎Jo] ‏درهم‎ :/ Currency ‏العملة‎\n‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description glu! | #\nAmount Unit price Qty\n3,600.00 1,800.00 2 Road freight / ‏شحن برى دبى - أبوظبى‎ | 1\n\"Dubai - Abu Dhabi\n640.00 | 640.00 1 Storage (week) / ‏تخزين (أسبوع)‎ 2\n4,240.00 / Subtotal dy pall ‏لمجموع قبل‎\n212.00 57 / VAT ‏ضريبة القيمة المضافة‎\n4,452.00 / Total due ‏الإجمالي المستحق‎\n\n‎op‏ السداد خلال ‎logy I.‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.5,
+  "input_tokens": 4261,
+  "output_tokens": 452
+}

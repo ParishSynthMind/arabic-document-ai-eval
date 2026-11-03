@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مطبعة الفجر الحديثة",
+      "confidence": "high",
+      "source_snippet": "مطبعة الفجر الحديثة"
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100923347100003"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "high",
+      "source_snippet": "F-2026-0098 :رقم الفاتورة"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 05/10/2026"
+    },
+    "customer_name": {
+      "value": "جمعية البر الخيرية",
+      "confidence": "high",
+      "source_snippet": "العميل: جمعية البر الخيرية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 2550.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة 2,550.00"
+    },
+    "vat_amount": {
+      "value": 127.5,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٪5 127.50"
+    },
+    "total_amount": {
+      "value": 2677.5,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق 2,677.50"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nمطبعة الفجر الحديثة\nالرقم الضريبي للمورد: 100923347100003\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\nF-2026-0098 :رقم الفاتورة\nتاريخ الفاتورة: 05/10/2026\nالعميل: جمعية البر الخيرية\nالعملة: درهم إماراتي\n# البيان الكمية سعر الوحدة المبلغ\n1 طباعة كتيبات ملونة 500 4.20 2,100.00\n2 تصميم غالف 1 450.00 450.00\nالمجموع قبل الضريبة 2,550.00\nضريبة القيمة المضافة ٪5 127.50\nاإلجمالي المستحق 2,677.50\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.0,
+  "input_tokens": 4099,
+  "output_tokens": 470
+}

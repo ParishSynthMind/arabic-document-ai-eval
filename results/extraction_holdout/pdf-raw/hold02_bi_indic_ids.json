@@ -1,0 +1,57 @@
+{
+  "doc": "hold02_bi_indic_ids",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "Al Noor Security Systems LLC",
+      "confidence": "medium",
+      "source_snippet": "Al Noor Security Systems LLC"
+    },
+    "supplier_trn": {
+      "value": "100937261500003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٩٣٧٢٦١٥٠٠٠٠٣ :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "NS/26-0417",
+      "confidence": "medium",
+      "source_snippet": "٠٤١٧-٢٦/NS :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-10-02",
+      "confidence": "medium",
+      "source_snippet": "٢٠٢٦ ربوتكأ ٢ :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "Marina Heights Owners Association",
+      "confidence": "high",
+      "source_snippet": "Marina Heights Owners Association :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :/ Currency"
+    },
+    "subtotal": {
+      "value": 14140.0,
+      "confidence": "high",
+      "source_snippet": "١٤,١٤٠.٠٠ / Subtotal"
+    },
+    "vat_amount": {
+      "value": 707.0,
+      "confidence": "high",
+      "source_snippet": "٧٠٧.٠٠ ٪٥ / VAT"
+    },
+    "total_amount": {
+      "value": 14847.0,
+      "confidence": "high",
+      "source_snippet": "١٤,٨٤٧.٠٠ / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةينملأا ةمظنلأل رونلا ةكرش\nAl Noor Security Systems LLC\n١٠٠٩٣٧٢٦١٥٠٠٠٠٣ :/ Supplier TRN دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\n/ Tax Invoice ةيبيرض ةروتاف\n٠٤١٧-٢٦/NS :/ Invoice No. ةروتافلا مقر\n٢٠٢٦ ربوتكأ ٢ :/ Invoice date ةروتافلا خيرات\nMarina Heights Owners Association :/ Customer ليمعلا\nيتارامإ مهرد :/ Currency ةلمعلا\n/ غلبملا / Unit ةدحولا رعس / ةيمكلا / Description نايبلا #\nAmount price Qty\n١٠,٢٤٠.٠٠ ٦٤٠.٠٠ ١٦ Outdoor / ةيجراخ ةبقارم اريماك ١\nCCTV camera\n٣,٩٠٠.٠٠ ١,٩٥٠.٠٠ ٢ NVR recorder / ليجست زاهج ٢\n١٤,١٤٠.٠٠ / Subtotal ةبيرضلا لبق عومجملا\n٧٠٧.٠٠ ٪٥ / VAT ةفاضملا ةميقلا ةبيرض\n١٤,٨٤٧.٠٠ / Total due قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 3.9,
+  "input_tokens": 4397,
+  "output_tokens": 517
+}

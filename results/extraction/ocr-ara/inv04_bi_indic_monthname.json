@@ -1,0 +1,57 @@
+{
+  "doc": "inv04_bi_indic_monthname",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة البيان لتقنية المعلومات",
+      "confidence": "high",
+      "source_snippet": "شركة البيان لتقنية المعلومات"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد ‎I-WVAIFPE....t / Supplier TRN‏"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Pr.9-BY :/ Invoice No. ‏رقم الفاتورة‎"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "r.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "‏الخاصة‎ Goll ‏مدرسة‎ :/ Customer ‏العميل‎"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "medium",
+      "source_snippet": "‏درهم‎ :/ Currency ‏العملة‎"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "‏كيل‎ / Subtotal dw pall ‏المجموع قبل‎"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "PIO. 7.0 / VAT ‏ضريبة القيمة المضافة‎"
+    },
+    "total_amount": {
+      "value": 3710.0,
+      "confidence": "medium",
+      "source_snippet": "3,710.0 / Total due ‏الإجمالي المستحق‎"
+    }
+  },
+  "error": null,
+  "document_text": "شركة البيان لتقنية المعلومات\n\nAl Bayan IT Company\n\nالرقم الضريبي للمورد ‎I-WVAIFPE....t / Supplier TRN‏\nالعنوان: شارع الميناء. مبنى ‎le‏ المكتب ).ا - عنوان تجريبي\n\n/ Tax Invoice ‏فاتورة ضريبية‎\n\nPr.9-BY :/ Invoice No. ‏رقم الفاتورة‎\nr.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎\n‏الخاصة‎ Goll ‏مدرسة‎ :/ Customer ‏العميل‎\n‎Jo] ‏درهم‎ :/ Currency ‏العملة‎\n‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #\nAmount Unit price Qty\nAccounting software licence (1 year)\n‏ار‎ Po... 1 Staff training / ‏تدريب الموظفين‎ | 1\n‏كيل‎ / Subtotal dw pall ‏المجموع قبل‎\nPIO. 7.0 / VAT ‏ضريبة القيمة المضافة‎\n3,710.0 / Total due ‏الإجمالي المستحق‎\n\n‎op‏ السداد خلال ‎logy I.‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 5.0,
+  "input_tokens": 4273,
+  "output_tokens": 559
+}

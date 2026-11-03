@@ -1,0 +1,42 @@
+{
+  "question": {
+    "id": "q05",
+    "kind": "policy",
+    "question": "هل تقبلون الدفع نقداً؟",
+    "status": [
+      "answered"
+    ],
+    "section": "طرق الدفع",
+    "facts": [
+      [
+        "لا نقبل",
+        "لا يقبل",
+        "لا يمكن الدفع نقد",
+        "غير مقبول",
+        "غير متاح"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "لا، لا نقبل الدفع النقدي حرصاً على سلامة الفنيين. يمكنك الدفع ببطاقات الائتمان أو الخصم المباشر، أو Apple Pay، كما نقبل التحويل البنكي للشركات.",
+    "citations": [
+      {
+        "source": "warranty-and-payments.md",
+        "heading": "طرق الدفع"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "طرق الدفع",
+      "الضمان والدفع",
+      "الفواتير",
+      "الاسترداد",
+      "الضمان"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply matches the knowledge base: cash is not accepted for technician safety, and the accepted methods are credit and debit cards, Apple Pay, and bank transfer for companies."
+}

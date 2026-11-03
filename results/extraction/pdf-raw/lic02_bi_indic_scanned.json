@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-5532871",
+      "confidence": "medium",
+      "source_snippet": "٥٥٣٢٨٧١-CN / Licence No."
+    },
+    "trade_name_ar": {
+      "value": "نجمة الشرق للمقاولات",
+      "confidence": "medium",
+      "source_snippet": "تلاواقملل قرشلا ةمجن"
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR CONTRACTING",
+      "confidence": "high",
+      "source_snippet": "EASTERN STAR CONTRACTING"
+    },
+    "legal_form": {
+      "value": "مؤسسة فردية",
+      "confidence": "medium",
+      "source_snippet": "ةيدرف ةسسؤم / Legal form"
+    },
+    "main_activity": {
+      "value": "مقاولات المباني",
+      "confidence": "medium",
+      "source_snippet": "ينابملا تلاواقم / Main activity"
+    },
+    "issue_date": {
+      "value": "2025-01-09",
+      "confidence": "high",
+      "source_snippet": "٠٩/٠١/٢٠٢٥ / Issue date"
+    },
+    "expiry_date": {
+      "value": "2026-12-31",
+      "confidence": "high",
+      "source_snippet": "٣١/١٢/٢٠٢٦ / Expiry date"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةحاولا ةنيدم - ةيداصتقلاا ةيمنتلا بتكم\nOasis City Economic Office (fictional authority)\n/ Commercial Licence ةيراجت ةصخر\n٥٥٣٢٨٧١-CN / Licence No. ةصخرلا مقر\nتلاواقملل قرشلا ةمجن / Trade name يراجتلا مسلاا\nEASTERN STAR CONTRACTING\nةيدرف ةسسؤم / Legal form ينوناقلا لكشلا\nينابملا تلاواقم / Main activity يسيئرلا طاشنلا\n٠٩/٠١/٢٠٢٥ / Issue date رادصلإا خيرات\n٣١/١٢/٢٠٢٦ / Expiry date ءاهتنلاا خيرات\nE\nL\n.ةيقيقح ةيموكح ةهج يأ نع ةرداص تسيلو طقف رابتخلاا ضارغلأ ةيجذومن ةقيثو هذه\nP\nM\nA\nS\nع\nي\nن\nة",
+  "seconds": 6.8,
+  "input_tokens": 3247,
+  "output_tokens": 861
+}

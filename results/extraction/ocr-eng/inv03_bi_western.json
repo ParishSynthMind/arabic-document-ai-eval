@@ -1,0 +1,57 @@
+{
+  "doc": "inv03_bi_western",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "Gulf Falcon Logistics Services LLC",
+      "confidence": "medium",
+      "source_snippet": "Gulf Falcon Logistics Services LLC"
+    },
+    "supplier_trn": {
+      "value": "100512908700003",
+      "confidence": "high",
+      "source_snippet": "100512908700003 / Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "GF-77812",
+      "confidence": "high",
+      "source_snippet": "GF-77812 +/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-10-28",
+      "confidence": "high",
+      "source_snippet": "2026-10-28 / Invoice date"
+    },
+    "customer_name": {
+      "value": "Desert Rose Trading FZE",
+      "confidence": "high",
+      "source_snippet": "Desert Rose Trading FZE / Customer"
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Jo] 02) / Currency dloell"
+    },
+    "subtotal": {
+      "value": 4240.0,
+      "confidence": "high",
+      "source_snippet": "4,240.00 / Subtotal"
+    },
+    "vat_amount": {
+      "value": 212.0,
+      "confidence": "high",
+      "source_snippet": "212.00 57 / VAT"
+    },
+    "total_amount": {
+      "value": 4452.0,
+      "confidence": "high",
+      "source_snippet": "4,452.00 / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "Gulf Falcon Logistics Services LLC\n\n100512908700003 / Supplier TRN gall uy uc! abl\n\n/ Tax Invoice duu ju6 609i lo\n\nGF-77812 +/ Invoice No. 6gilaJl ad)\n2026-10-28 / Invoice date 6gilall ay)\nDesert Rose Trading FZE / Customer Juoeoll\nJo] 02) / Currency dloell\n/ gliadi / 6309) youu / densJl / Description glu! | #\nAmount Unit price Qty\n3,600.00 1,800.00 2 Road freight / _ubqui- (id Su gous | 1\n\"Dubai - Abu Dhabi\n640.00 | 640.00 1 Storage (week) / (gguwi) WA | 2\n4,240.00 / Subtotal dy pall Jub ggonol\n212.00 57 / VAT abla)! doudll dy jus\n4,452.00 / Total due Gaiuoll Jlooyl\n\nJUBUI bled du ynl 6)gilo ode .6ygilall ayyU go logy I. Js slau! op\n",
+  "seconds": 3.1,
+  "input_tokens": 4121,
+  "output_tokens": 438
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الاستلام للترجمة",
+      "confidence": "low",
+      "source_snippet": "شَركَةٌ الستّلام لِنتَرجَمَةٍ"
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "medium",
+      "source_snippet": "100733418900003 ‏الضريبي للمورد.‎ pil"
+    },
+    "invoice_number": {
+      "value": "2-51",
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة: 51-2"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 18/06/2026"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "high",
+      "source_snippet": "العميل: ‎Northwind Legal Partners‏"
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": "high",
+      "source_snippet": "العملة: دولار أمريكي"
+    },
+    "subtotal": {
+      "value": 940.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة | 940.00"
+    },
+    "vat_amount": {
+      "value": 47.0,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة 75 | 47.00"
+    },
+    "total_amount": {
+      "value": 987.0,
+      "confidence": "high",
+      "source_snippet": "الإجمالي المستحق | 987.00"
+    }
+  },
+  "error": null,
+  "document_text": "اس ا من\n\nشَركَةٌ الستّلام لِنتَرجَمَةٍ\n\n- .\n\n100733418900003 ‏الضريبي للمورد.‎ pil\n‏المكتب .© - عنوان تجريبي‎ JE Guo ‏العنوان: شارع الميناء.‎\n\nفاتورة ضريبية\n\nرقم الفاتورة: 51-2\nتاريخ الفاتورة: 18/06/2026\nالعميل: ‎Northwind Legal Partners‏\nالعملة: دولار أمريكي\n‎gut | #‏ الكمية | سعر الوحدة المبلغ\n1 | ترجمة قانونية (صفحة) 40 | 22.00 880.00\n2 | تصديق الترجمة 1 | 60.00 60.00\nالمجموع قبل الضريبة | 940.00\nضريبة القيمة المضافة 75 | 47.00\nالإجمالي المستحق | 987.00\n\nJW Ul ‏من تاريخ القاتورة هذه فاتورة تجريبية لأغراض‎ logs ٠١. ‏السداد خلال‎ op\n\n",
+  "seconds": 3.5,
+  "input_tokens": 4131,
+  "output_tokens": 477
+}

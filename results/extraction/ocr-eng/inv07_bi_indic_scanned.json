@@ -1,0 +1,57 @@
+{
+  "doc": "inv07_bi_indic_scanned",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "Golden Desert Tourism Co.",
+      "confidence": "medium",
+      "source_snippet": "Golden Desert Tourism Co."
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "I--€0WASL..+ / Supplier TRN gol Lu pall 20 yl"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "00f1-GDT + Invoice No. 6)gilall £0)"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "JAY / Invoice date 6)gilall aU"
+    },
+    "customer_name": {
+      "value": "Blue Horizon Events LLC",
+      "confidence": "high",
+      "source_snippet": "Blue Horizon Events LLC / Customer Juooll"
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Jol ao) +/ Currency aloo"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "/ Subtotal ay All JLo £9020"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "%0/ VAT asLoall dowd au od"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "/ Total due §aiiuall Jao gl"
+    }
+  },
+  "error": null,
+  "document_text": "WO bl) Aud JI cl poundl 85s\n\nGolden Desert Tourism Co.\n\nI--€0WASL..+ / Supplier TRN gol Lu pall 20 yl\nGIR lic - Pr Lida! Je io celina)! JU wglgioll\n\n/\n\nTax Invoice du 16 6;9ilo\n\n00f1-GDT + Invoice No. 6)gilall £0)\nJAY / Invoice date 6)gilall aU\nBlue Horizon Events LLC / Customer Juooll\nJol ao) +/ Currency aloo\n\nF /glall | /Unit 61591 yous / Description Ll\n\nAmount _ price : : : |\n13 Desert / ayglfouo 5 jlaw als)\n2 safari\nfIA\n\nBedouin dinner / $9 clue\n\n/ Subtotal ay All JLo £9020\n%0/ VAT asLoall dowd au od\n/ Total due §aiiuall Jao gl\n\nrE. es\n\nJUD UI Goel) dus (25 6)93L6 06 -0)Gilall 3430 Go logy F. Jils slaw WIN\n",
+  "seconds": 2.9,
+  "input_tokens": 4119,
+  "output_tokens": 458
+}

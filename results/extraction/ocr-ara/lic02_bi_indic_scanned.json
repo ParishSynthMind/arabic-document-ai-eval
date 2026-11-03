@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "0OFIAVI-CN / Licence No. das ١ ‏رقم‎ 1"
+    },
+    "trade_name_ar": {
+      "value": "نجمة الشرزق للمقاولات",
+      "confidence": "medium",
+      "source_snippet": "نجمة الشرزق للمقاولات"
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR CONTRACTING",
+      "confidence": "medium",
+      "source_snippet": "EASTERN STAR CONTRACTING : ie"
+    },
+    "legal_form": {
+      "value": "مؤبسسة. فردية",
+      "confidence": "medium",
+      "source_snippet": "مؤبسسة. فردية"
+    },
+    "main_activity": {
+      "value": "مقاولات المباني",
+      "confidence": "medium",
+      "source_snippet": "1 مقاولات المباني"
+    },
+    "issue_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الإصدار ‎Issue date‏ / 4/1/0"
+    },
+    "expiry_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الانتهاء ‎Expiry date‏ / | 1/1/6"
+    }
+  },
+  "error": null,
+  "document_text": "مكتب التنمية الاقتصادية - مدينة الواحة\n\nOasis City Economic Office (fictional authority)\n\n/ Commercial Licence ‏رخصة تجارية‎\n\n0OFIAVI-CN / Licence No. das ١ ‏رقم‎ 1\n\n| الاسم التجارى ‎/Trade name‏ | نجمة الشرزق للمقاولات\n‎EASTERN STAR CONTRACTING : ie‏\n\nالشكل القانوني ‎Legal form‏ / مؤبسسة. فردية\nالنشاط الرئيسي ‎Main activity‏ / 1 مقاولات المباني\nتاريخ الإصدار ‎Issue date‏ / 4/1/0\n\nاسل\nتاريخ الانتهاء ‎Expiry date‏ / | 1/1/6\n\nهذه وثيقة نموذجية لأغراض ‎UIs UI‏ فقط وليست صادرة عن أي ‎da‏ حكومية حقيقية.\n\nم\n\n",
+  "seconds": 3.4,
+  "input_tokens": 3205,
+  "output_tokens": 404
+}

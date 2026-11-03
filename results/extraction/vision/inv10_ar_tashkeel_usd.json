@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة السلام للترجمة",
+      "confidence": "high",
+      "source_snippet": "شَرِكَةُ السَّلامِ لِلتَّرجَمَةِ"
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100733418900003"
+    },
+    "invoice_number": {
+      "value": "SL-0612",
+      "confidence": "high",
+      "source_snippet": "SL-0612"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "18/06/2026"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "high",
+      "source_snippet": "Northwind Legal Partners"
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": "high",
+      "source_snippet": "دولار أمريكي"
+    },
+    "subtotal": {
+      "value": 940,
+      "confidence": "high",
+      "source_snippet": "940.00"
+    },
+    "vat_amount": {
+      "value": 47,
+      "confidence": "high",
+      "source_snippet": "47.00"
+    },
+    "total_amount": {
+      "value": 987,
+      "confidence": "high",
+      "source_snippet": "987.00"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 3.5,
+  "input_tokens": 8540,
+  "output_tokens": 390
+}

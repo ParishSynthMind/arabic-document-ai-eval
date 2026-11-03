@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة المرجان للمعدات الطبية",
+      "confidence": "high",
+      "source_snippet": "شركة المرجان للمعدات الطبية"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد: “ا....080071..٠‏"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة: ‎1.€r-MR‏"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الفاتورة: 1/1/7"
+    },
+    "customer_name": {
+      "value": "عيادة الشفاء التخصصية",
+      "confidence": "high",
+      "source_snippet": "العميل: عيادة الشفاء التخصصية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "medium",
+      "source_snippet": "العملة: درهم إماراني"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "٠.) OAs 0- dw pall ‏المجموع قبل‎"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "069 7.0 ‏القيمة المضافة‎ dy pd"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "10/1/66 ‏الإجمالي المستحق‎"
+    }
+  },
+  "error": null,
+  "document_text": "شركة المرجان للمعدات الطبية\n\nالرقم الضريبي للمورد: “ا....080071..٠‏\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎1.€r-MR‏\n\nتاريخ الفاتورة: 1/1/7\n\nالعميل: عيادة الشفاء التخصصية\n\nالعملة: درهم إماراني\n‎audi | #‏ الكمية سعر الوحدة المبلغ\n| جهاز قياس ضغط رقمي ‎IN9,9. lo‏ .مالع ]\n‎r‏ سرير فحص طبي ‎r‏ قل 10\n‎[od‏ قفازات طبية (علبة) 3 ‎se. rrvo‏\n\n٠.) OAs 0- dw pall ‏المجموع قبل‎\n\n069 7.0 ‏القيمة المضافة‎ dy pd\n10/1/66 ‏الإجمالي المستحق‎\n\n‎op‏ السداد خلال ‎logy I.‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.1,
+  "input_tokens": 4130,
+  "output_tokens": 480
+}

@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-0532871",
+      "confidence": "medium",
+      "source_snippet": "٥٥٣٢٨٧١-CN"
+    },
+    "trade_name_ar": {
+      "value": "نجمة الشرق للمقاولات",
+      "confidence": "high",
+      "source_snippet": "نجمة الشرق للمقاولات"
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR CONTRACTING",
+      "confidence": "high",
+      "source_snippet": "EASTERN STAR CONTRACTING"
+    },
+    "legal_form": {
+      "value": "مؤسسة فردية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة فردية"
+    },
+    "main_activity": {
+      "value": "مقاولات المباني",
+      "confidence": "high",
+      "source_snippet": "مقاولات المباني"
+    },
+    "issue_date": {
+      "value": "2025-01-09",
+      "confidence": "medium",
+      "source_snippet": "٠٩/٠١/٢٠٢٥"
+    },
+    "expiry_date": {
+      "value": "2026-12-31",
+      "confidence": "medium",
+      "source_snippet": "٣١/١٢/٢٠٢٦"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 4.4,
+  "input_tokens": 7676,
+  "output_tokens": 368
+}

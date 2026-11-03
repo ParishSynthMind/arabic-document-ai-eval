@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    }
+  },
+  "error": null,
+  "document_text": "dbl Slaeol Jb poll dS yds\n\n1-AEQOMM 1 :5jg0l) Lu pad! 061\n\nday p16 049i Lo\n\n1.€r-MR :0Jgilall nd)\n\nrI/-Nr.M :0)gilall 2y)0\n\ndwounsUl claddl ésluc Jeol\n\nJol ao) :aoell\n&lall 6309)l youu d04J1 audi | #\nM<NENsO- IN9,9. lo oo) bev guls jloo |\n160eeser Peron. r Hb yoo pw r\nse. rrvo 2 (dude) dub wljlad [od\n\n1-¢<F OAs 0- dw pall Jud ggoaoll\n\nolr»ar 7.0 &0LAI doydll dy pd\n1o<WVILEF Gaiuoll Joo yl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go logy I. Js slau! op\n",
+  "seconds": 2.4,
+  "input_tokens": 4065,
+  "output_tokens": 260
+}

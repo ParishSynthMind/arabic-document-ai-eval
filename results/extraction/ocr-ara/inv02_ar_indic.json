@@ -1,0 +1,57 @@
+{
+  "doc": "inv02_ar_indic",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الريان للأجهزة الكهربائية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة الريان للأجهزة الكهربائية"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد ١...ع)اص/ضم..٠‏"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة: 1/0"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الفاتورة: ‎Fram‏"
+    },
+    "customer_name": {
+      "value": "فندق اللؤلؤة الزرقاء",
+      "confidence": "high",
+      "source_snippet": "العميل: فندق اللؤلؤة الزرقاء"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "المجموع قبل الضريبة ,0"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "ضريبة القيمة المضافة 7.0 ...00"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الإجمالي المستحق +0,002"
+    }
+  },
+  "error": null,
+  "document_text": "مؤسسة الريان للأجهزة الكهربائية\nالرقم الضريبي للمورد ١...ع)اص/ضم..٠‏\nفاتورة ضريبية\n\nرقم الفاتورة: 1/0\n\nتاريخ الفاتورة: ‎Fram‏\n\nالعميل: فندق اللؤلؤة الزرقاء\n\nالعملة: درهم ‎Jo]‏\n‏# االبيان الكمية سعر الوحدة | المبلغ\n‎١‏ مكيف سبليت ‎ho‏ طن ‎p‏ عا | ‎E10.‏\n‎١‏ تركيب وتشغيل ‎ron. p‏ | ولا\n\nالمجموع قبل الضريبة ,0\nضريبة القيمة المضافة 7.0 ...00\n\nالإجمالي المستحق +0,002\n\nيرجى السداد خلال ‎٠.‏ يوماً من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.9,
+  "input_tokens": 4097,
+  "output_tokens": 469
+}

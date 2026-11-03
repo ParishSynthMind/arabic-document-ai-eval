@@ -1,0 +1,57 @@
+{
+  "doc": "inv07_bi_indic_scanned",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الصحراء الذهبية للسياحة",
+      "confidence": "high",
+      "source_snippet": "شركة الصحراء الذهبية للسياحة"
+    },
+    "supplier_trn": {
+      "value": "100456789100003",
+      "confidence": "high",
+      "source_snippet": "١٠٠٤٥٦٧٨٩١٠٠٠٠٣ :/ Supplier TRN"
+    },
+    "invoice_number": {
+      "value": "GDT-5521",
+      "confidence": "high",
+      "source_snippet": "٥٥٢١-GDT :/ Invoice No."
+    },
+    "invoice_date": {
+      "value": "2026-11-01",
+      "confidence": "high",
+      "source_snippet": "٠١/١١/٢٠٢٦ :/ Invoice date"
+    },
+    "customer_name": {
+      "value": "Blue Horizon Events LLC",
+      "confidence": "high",
+      "source_snippet": "Blue Horizon Events LLC :/ Customer"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة Currency /: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 8880,
+      "confidence": "high",
+      "source_snippet": "٨,٨٨٠.٠٠ / Subtotal"
+    },
+    "vat_amount": {
+      "value": 444,
+      "confidence": "high",
+      "source_snippet": "٥٪ ٤٤٤.٠٠ / VAT"
+    },
+    "total_amount": {
+      "value": 9324,
+      "confidence": "high",
+      "source_snippet": "٩,٣٢٤.٠٠ / Total due"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nشركة الصحراء الذهبية للسياحة\nGolden Desert Tourism Co.\n١٠٠٤٥٦٧٨٩١٠٠٠٠٣ :/ Supplier TRN الرقم الضريبي للمورد\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\n/ Tax Invoice فاتورة ضريبية\n٥٥٢١-GDT :/ Invoice No. رقم الفاتورة\n٠١/١١/٢٠٢٦ :/ Invoice date تاريخ الفاتورة\nBlue Horizon Events LLC :/ Customer العميل\nالعملة Currency /: درهم إماراتي\n# البيان Description / الكمية / سعر الوحدة Unit / المبلغ /\nAmount price Qty\n٢٤ ٢٧٥.٠٠ ٦,٦٠٠.٠٠ Desert / ١ رحلة سفاري صحراوية\nsafari\n٢٤ ٩٥.٠٠ ٢,٢٨٠.٠٠ Bedouin dinner / ٢ عشاء بدوي\n٨,٨٨٠.٠٠ / Subtotal المجموع قبل الضريبة\n٥٪ ٤٤٤.٠٠ / VAT ضريبة القيمة المضافة\n٩,٣٢٤.٠٠ / Total due اإلجمالي المستحق\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.6,
+  "input_tokens": 4318,
+  "output_tokens": 510
+}

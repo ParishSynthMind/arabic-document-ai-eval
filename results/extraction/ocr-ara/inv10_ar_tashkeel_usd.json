@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "pala Buds",
+      "confidence": "low",
+      "source_snippet": "pala Buds‏ لِنتَرجَمَةٍ"
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100733418900003"
+    },
+    "invoice_number": {
+      "value": "SL-0612",
+      "confidence": "high",
+      "source_snippet": "رقم الفاتورة: ‎SL-0612"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 18/06/2026"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "high",
+      "source_snippet": "العميل: ‎Northwind Legal Partners"
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": "high",
+      "source_snippet": "العملة: دولار أمريكي"
+    },
+    "subtotal": {
+      "value": 940.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة | 940.00"
+    },
+    "vat_amount": {
+      "value": 47.0,
+      "confidence": "medium",
+      "source_snippet": "ضريبة القيمة المضافة 75 | 47.00"
+    },
+    "total_amount": {
+      "value": 987.0,
+      "confidence": "high",
+      "source_snippet": "الإجمالي المستحق | 987.00"
+    }
+  },
+  "error": null,
+  "document_text": "= =\n\n‎pala Buds‏ لِنتَرجَمَةٍ\n\n‎- ٠\n\n‏الرقم الضريبي للمورد: 100733418900003\n\n‏فاتورة ضريبية\n\n‏رقم الفاتورة: ‎SL-0612‏\n‏تاريخ الفاتورة: 18/06/2026\nالعميل: ‎Northwind Legal Partners‏\nالعملة: دولار أمريكي\n# | البيان الكمية سعر الوحدة المبلغ\n‎١ 1‏ ترجمة قانونية (صفحة) 40 22.00 880.00\n2 | تصديق ‎doo il‏ 1 60.00 | 60.00\nالمجموع قبل الضريبة | 940.00\nضريبة القيمة المضافة 75 | 47.00\nالإجمالي المستحق | 987.00\n\n‏يرجى السداد خلال ‎٠.‏ يوماً من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.3,
+  "input_tokens": 4099,
+  "output_tokens": 464
+}

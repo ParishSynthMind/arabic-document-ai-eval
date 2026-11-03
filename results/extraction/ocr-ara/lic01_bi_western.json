@@ -1,0 +1,47 @@
+{
+  "doc": "lic01_bi_western",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-4471209",
+      "confidence": "high",
+      "source_snippet": "CN-4471209 / Licence No."
+    },
+    "trade_name_ar": {
+      "value": "الواحة للتجارة العامة",
+      "confidence": "high",
+      "source_snippet": "الاسم التجازري ‎Trade name‏ / الواحة للتجارة العامة"
+    },
+    "trade_name_en": {
+      "value": "AL WAHA GENERAL TRADING",
+      "confidence": "high",
+      "source_snippet": "AL WAHA GENERAL TRADING ,"
+    },
+    "legal_form": {
+      "value": "شركة ذات مسؤولية محدودة",
+      "confidence": "high",
+      "source_snippet": "شركة ذات مسؤولية محدودة"
+    },
+    "main_activity": {
+      "value": "تجارة المواد الغذائية بالجملة",
+      "confidence": "high",
+      "source_snippet": "تجارة المواد الغذائية بالجملة"
+    },
+    "issue_date": {
+      "value": "2024-03-17",
+      "confidence": "high",
+      "source_snippet": "تاريخ الإصدار ‎Issue date‏ / 17/03/2024"
+    },
+    "expiry_date": {
+      "value": "2027-03-16",
+      "confidence": "high",
+      "source_snippet": "ريخ الانتهاء ‎Expiry date‏ / 16/03/2027"
+    }
+  },
+  "error": null,
+  "document_text": "Oasis City Economic Office (fictional authority)\n/ Commercial Licence ‏رخصة تجارية‎\n\nCN-4471209 / Licence No. ‏رقم الرخصة‎\n\nالاسم التجازري ‎Trade name‏ / الواحة للتجارة العامة\n‎AL WAHA GENERAL TRADING ,‏\n\nالشكل القانوني ‎form‏ 169281 / شركة ذات مسؤولية محدودة\nالنشاط الرئيسي ‎١ / Main activity‏ تجارة المواد الغذائية بالجملة\nتاريخ الإصدار ‎Issue date‏ / 17/03/2024\n‎G‏ ريخ الانتهاء ‎Expiry date‏ / 16/03/2027\n\n",
+  "seconds": 4.3,
+  "input_tokens": 3122,
+  "output_tokens": 434
+}

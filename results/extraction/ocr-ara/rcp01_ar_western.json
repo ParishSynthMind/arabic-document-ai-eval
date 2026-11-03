@@ -1,0 +1,42 @@
+{
+  "doc": "rcp01_ar_western",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": null,
+      "confidence": "medium",
+      "source_snippet": ""
+    },
+    "receipt_number": {
+      "value": "R-88213",
+      "confidence": "high",
+      "source_snippet": "رقم الإيصال: ‎R-88213‏"
+    },
+    "receipt_date": {
+      "value": "2026-10-30",
+      "confidence": "medium",
+      "source_snippet": "‏التازيخ: 30/10/2026 الوقت: 18:42"
+    },
+    "payment_method": {
+      "value": "card",
+      "confidence": "medium",
+      "source_snippet": "فيزا) ****4417"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "المضافة 75"
+    },
+    "total_amount": {
+      "value": 78.0,
+      "confidence": "medium",
+      "source_snippet": "الإجمالى شامل درهم 78.00"
+    }
+  },
+  "error": null,
+  "document_text": "فرع تجريبي - هاتف 04 000 0000\n\nرقم الإيصال: ‎R-88213‏\n‏التازيخ: 30/10/2026 الوقت: 18:42\n\nقهوة عربية 30.00\n‎x 2‏ 15.00\n\n2400 us\n8.00 x3\n\nكمكة تمر ا 0 2400\n‎x 2‏ 12.00\n\nالإجمالى شامل درهم 78.00\nالمضافة 75\n\nفيزا) ****4417\n\nشكراً لزيارتكم\n",
+  "seconds": 3.5,
+  "input_tokens": 2600,
+  "output_tokens": 269
+}

@@ -1,0 +1,22 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Tesseract
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr
+      - name: Download Arabic + English OCR models
+        run: ./scripts/get_tessdata.sh
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+      - name: Run tests (Claude is mocked, no API key needed)
+        run: pytest -v

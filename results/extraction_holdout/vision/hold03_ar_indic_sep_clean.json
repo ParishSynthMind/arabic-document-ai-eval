@@ -1,0 +1,57 @@
+{
+  "doc": "hold03_ar_indic_sep_clean",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة البناء المتين للمقاولات",
+      "confidence": "high",
+      "source_snippet": "مؤسسة البناء المتين للمقاولات"
+    },
+    "supplier_trn": {
+      "value": "100418829600003",
+      "confidence": "medium",
+      "source_snippet": "الرقم الضريبي للمورد: ٣٠٠٠٠٩٦٢٨٨١٤٠٠١"
+    },
+    "invoice_number": {
+      "value": "BM-2026-0093",
+      "confidence": "medium",
+      "source_snippet": "٠٠٩٣-٢٠٢٦-BM"
+    },
+    "invoice_date": {
+      "value": "2026-07-07",
+      "confidence": "medium",
+      "source_snippet": "٠٧/٠٧/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "شركة أبراج الخليج العقارية",
+      "confidence": "high",
+      "source_snippet": "شركة أبراج الخليج العقارية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 137700,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة"
+    },
+    "vat_amount": {
+      "value": 6885,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٥٪"
+    },
+    "total_amount": {
+      "value": 144585,
+      "confidence": "high",
+      "source_snippet": "الإجمالي المستحق"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 11.1,
+  "input_tokens": 8540,
+  "output_tokens": 1383
+}

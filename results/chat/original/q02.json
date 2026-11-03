@@ -1,0 +1,32 @@
+{
+  "question": {
+    "id": "q02",
+    "kind": "hours",
+    "question": "هل تعملون يوم الجمعة؟",
+    "status": [
+      "answered"
+    ],
+    "section": "أوقات العمل",
+    "facts": [
+      [
+        "2 ظهر",
+        "الثانية ظهر",
+        "2 مساء",
+        "2 م",
+        "2:00",
+        "14:00"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "original",
+  "reply": {
+    "status": "not_in_knowledge_base",
+    "reply": "I don't have that in our help docs. Would you like me to pass your question to the team?",
+    "citations": [],
+    "model_called": false,
+    "retrieved": []
+  },
+  "grounded": true,
+  "judge_reason": "fixed reply, no claims"
+}

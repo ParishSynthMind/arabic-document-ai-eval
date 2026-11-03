@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة المرجان للمعدات الطبية",
+      "confidence": "high",
+      "source_snippet": "شركة المرجان للمعدات الطبية"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "‎1-AEOOTM ot‏"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "‎1.Er-MR‏"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الفاتورة: 1/0/0"
+    },
+    "customer_name": {
+      "value": "عيادة الشفاء التخصصية",
+      "confidence": "high",
+      "source_snippet": "العميل: عيادة الشفاء التخصصية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "المجموع قبل ‎aw pall‏ مقو"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "القيمة المضافة 7.0 019"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الإجمالي المستحق ‎le<WVILEF‏"
+    }
+  },
+  "error": null,
+  "document_text": "شركة المرجان للمعدات الطبية\n\nالرقم ‎Lu pall‏ للمورد. ‎1-AEOOTM ot‏\nالعنوان: شارع الميناء. ‎JE Guo‏ المكتب ؟.! - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎1.Er-MR‏\n‏تاريخ الفاتورة: 1/0/0\nالعميل: عيادة الشفاء التخصصية\nالعملة: درهم إماراتي\n# | البيان | الكمية | سعر الوحدة المبلغ\n‎١‏ جهاز قياس ضغط رقمي 10 مم معي\n‎r‏ سزير فحص ‎r Ab‏ رق 10\nم | قفازات ‎CT revo | 3 | (ae) dub‏\nالمجموع قبل ‎aw pall‏ مقو\n‎du ud‏ القيمة المضافة 7.0 019\nالإجمالي المستحق ‎le<WVILEF‏\n\n‎op‏ السداد خلال ‎logs ٠١.‏ من ناريخ القاتورة هذه فاتورة ‎uw pa‏ لأغراض الاختبار\n\n",
+  "seconds": 3.3,
+  "input_tokens": 4168,
+  "output_tokens": 443
+}

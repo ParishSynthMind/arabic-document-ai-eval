@@ -1,0 +1,57 @@
+{
+  "doc": "inv08_ar_hijri",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة رمال نجد للتوريدات",
+      "confidence": "high",
+      "source_snippet": "شركة رمال نجد للتوريدات"
+    },
+    "supplier_trn": {
+      "value": "310245678900003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: ٣١٠٢٤٥٦٧٨٩٠٠٠٠٣"
+    },
+    "invoice_number": {
+      "value": "RN-1448/44",
+      "confidence": "medium",
+      "source_snippet": "٤٤/١٤٤٨-RN :رقم الفاتورة"
+    },
+    "invoice_date": {
+      "value": "2026-10-25",
+      "confidence": "high",
+      "source_snippet": "الموافق ٢٥/١٠/٢٠٢٦ م"
+    },
+    "customer_name": {
+      "value": "مستشفى الرعاية األولى",
+      "confidence": "high",
+      "source_snippet": "العميل: مستشفى الرعاية األولى"
+    },
+    "currency": {
+      "value": "SAR",
+      "confidence": "high",
+      "source_snippet": "العملة: ريال سعودي"
+    },
+    "subtotal": {
+      "value": 2940.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة ٢,٩٤٠.٠٠"
+    },
+    "vat_amount": {
+      "value": 441.0,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ١٥٪ ٤٤١.٠٠"
+    },
+    "total_amount": {
+      "value": 3381.0,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق ٣,٣٨١.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nشركة رمال نجد للتوريدات\nالرقم الضريبي للمورد: ٣١٠٢٤٥٦٧٨٩٠٠٠٠٣\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\n٤٤/١٤٤٨-RN :رقم الفاتورة\nتاريخ الفاتورة: ١٤٤٨/٠٥/١٤ هـ الموافق ٢٥/١٠/٢٠٢٦ م\nالعميل: مستشفى الرعاية األولى\nالعملة: ريال سعودي\n# البيان الكمية سعر الوحدة المبلغ\n١ مستلزمات تعقيم ١٢٠ ١٨.٥٠ ٢,٢٢٠.٠٠\n٢ أكياس نفايات طبية ٦٠ ١٢.٠٠ ٧٢٠.٠٠\nالمجموع قبل الضريبة ٢,٩٤٠.٠٠\nضريبة القيمة المضافة ١٥٪ ٤٤١.٠٠\nاإلجمالي المستحق ٣,٣٨١.٠٠\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.4,
+  "input_tokens": 4238,
+  "output_tokens": 540
+}

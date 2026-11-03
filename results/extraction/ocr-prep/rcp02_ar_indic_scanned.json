@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "بقالة الخير",
+      "confidence": "high",
+      "source_snippet": "بقالة الخير"
+    },
+    "receipt_number": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "receipt_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "AEF ‏الوقت:‎ -)/1//.١ ‏التاريخ:‎"
+    },
+    "payment_method": {
+      "value": "cash",
+      "confidence": "high",
+      "source_snippet": "طريقة الدفع .. .. نقداً"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "منها ضريبة القيمة المضافة 7.0 الال"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الإجمالي شامل الضريبة درهم ...7"
+    }
+  },
+  "error": null,
+  "document_text": "بقالة الخير\n\nAEF ‏الوقت:‎ -)/1//.١ ‏التاريخ:‎\n\nحليب طازج ‎١‏ لثر . ْ و\n\nل 0لا.2\n\nخبز عربي 7.0\nنز ‎r.o. x‏ ا\n\n1 ‏ا‎ hE ‏ار بسمتي‎\nEr... xl\n\nالإجمالي شامل الضريبة درهم ...7\nمنها ضريبة القيمة المضافة 7.0 الال\n\nطريقة الدفع .. .. نقداً\n| شكراً لزيارتكم\n",
+  "seconds": 2.8,
+  "input_tokens": 2628,
+  "output_tokens": 286
+}

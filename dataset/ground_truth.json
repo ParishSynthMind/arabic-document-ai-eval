@@ -1,0 +1,216 @@
+{
+  "inv01_ar_western": {
+    "schema": "invoice_ar",
+    "note": "Arabic only, Western digits, clean print",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة الواحة للتجارة العامة ذ.م.م",
+      "supplier_trn": "100234567800003",
+      "invoice_number": "INV-2026-0451",
+      "invoice_date": "2026-10-12",
+      "customer_name": "مؤسسة النخيل للمقاولات",
+      "currency": "AED",
+      "subtotal": 2055.0,
+      "vat_amount": 102.75,
+      "total_amount": 2157.75
+    }
+  },
+  "inv02_ar_indic": {
+    "schema": "invoice_ar",
+    "note": "Arabic only, Arabic-Indic digits everywhere",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "مؤسسة الريان للأجهزة الكهربائية",
+      "supplier_trn": "100387612400003",
+      "invoice_number": "2026/118",
+      "invoice_date": "2026-09-03",
+      "customer_name": "فندق اللؤلؤة الزرقاء",
+      "currency": "AED",
+      "subtotal": 5100.0,
+      "vat_amount": 255.0,
+      "total_amount": 5355.0
+    }
+  },
+  "inv03_bi_western": {
+    "schema": "invoice_ar",
+    "note": "Bilingual Arabic/English labels, Western digits",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة صقر الخليج للخدمات اللوجستية",
+      "supplier_trn": "100512908700003",
+      "invoice_number": "GF-77812",
+      "invoice_date": "2026-10-28",
+      "customer_name": "Desert Rose Trading FZE",
+      "currency": "AED",
+      "subtotal": 4240.0,
+      "vat_amount": 212.0,
+      "total_amount": 4452.0
+    }
+  },
+  "inv04_bi_indic_monthname": {
+    "schema": "invoice_ar",
+    "note": "Bilingual, Arabic-Indic digits, date written with an Arabic month name",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة البيان لتقنية المعلومات",
+      "supplier_trn": "100678123400003",
+      "invoice_number": "BY-3309",
+      "invoice_date": "2026-10-15",
+      "customer_name": "مدرسة الأفق الخاصة",
+      "currency": "AED",
+      "subtotal": 6300.0,
+      "vat_amount": 315.0,
+      "total_amount": 6615.0
+    }
+  },
+  "inv05_ar_indic_separators": {
+    "schema": "invoice_ar",
+    "note": "Arabic-Indic digits with Arabic thousands (٬) and decimal (٫) separators",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة المرجان للمعدات الطبية",
+      "supplier_trn": "100845561200003",
+      "invoice_number": "MR-1042",
+      "invoice_date": "2026-08-21",
+      "customer_name": "عيادة الشفاء التخصصية",
+      "currency": "AED",
+      "subtotal": 10258.5,
+      "vat_amount": 512.92,
+      "total_amount": 10771.42
+    }
+  },
+  "inv06_ar_scanned": {
+    "schema": "invoice_ar",
+    "note": "Arabic only, Western digits, scanned (tilted, blurred, speckled)",
+    "render": "scan",
+    "fields": {
+      "supplier_name": "مطبعة الفجر الحديثة",
+      "supplier_trn": "100923347100003",
+      "invoice_number": "F-2026-0098",
+      "invoice_date": "2026-10-05",
+      "customer_name": "جمعية البر الخيرية",
+      "currency": "AED",
+      "subtotal": 2550.0,
+      "vat_amount": 127.5,
+      "total_amount": 2677.5
+    }
+  },
+  "inv07_bi_indic_scanned": {
+    "schema": "invoice_ar",
+    "note": "Bilingual, Arabic-Indic digits, scanned",
+    "render": "scan",
+    "fields": {
+      "supplier_name": "شركة الصحراء الذهبية للسياحة",
+      "supplier_trn": "100456789100003",
+      "invoice_number": "GDT-5521",
+      "invoice_date": "2026-11-01",
+      "customer_name": "Blue Horizon Events LLC",
+      "currency": "AED",
+      "subtotal": 8880.0,
+      "vat_amount": 444.0,
+      "total_amount": 9324.0
+    }
+  },
+  "inv08_ar_hijri": {
+    "schema": "invoice_ar",
+    "note": "Hijri and Gregorian dates both printed; Saudi invoice, SAR, 15% VAT",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة رمال نجد للتوريدات",
+      "supplier_trn": "310245678900003",
+      "invoice_number": "RN-44/1448",
+      "invoice_date": "2026-10-25",
+      "customer_name": "مستشفى الرعاية الأولى",
+      "currency": "SAR",
+      "subtotal": 2940.0,
+      "vat_amount": 441.0,
+      "total_amount": 3381.0
+    }
+  },
+  "inv09_ar_lowres": {
+    "schema": "invoice_ar",
+    "note": "Small 9pt type rendered at low resolution (110 dpi)",
+    "render": "lowres",
+    "fields": {
+      "supplier_name": "مؤسسة الأمانة للأدوات المكتبية",
+      "supplier_trn": "100311224400003",
+      "invoice_number": "AM-20817",
+      "invoice_date": "2026-07-30",
+      "customer_name": "شركة الضياء للاستشارات",
+      "currency": "AED",
+      "subtotal": 1275.0,
+      "vat_amount": 63.75,
+      "total_amount": 1338.75
+    }
+  },
+  "inv10_ar_tashkeel_usd": {
+    "schema": "invoice_ar",
+    "note": "Supplier name printed with vowel marks (tashkeel); priced in US dollars",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شَرِكَةُ السَّلامِ لِلتَّرجَمَةِ",
+      "supplier_trn": "100733418900003",
+      "invoice_number": "SL-0612",
+      "invoice_date": "2026-06-18",
+      "customer_name": "Northwind Legal Partners",
+      "currency": "USD",
+      "subtotal": 940.0,
+      "vat_amount": 47.0,
+      "total_amount": 987.0
+    }
+  },
+  "rcp01_ar_western": {
+    "schema": "receipt_ar",
+    "note": "Narrow till receipt, Arabic, Western digits, card payment",
+    "render": "clean",
+    "fields": {
+      "merchant_name": "مقهى الياسمين",
+      "receipt_number": "R-88213",
+      "receipt_date": "2026-10-30",
+      "payment_method": "card",
+      "vat_amount": 3.71,
+      "total_amount": 78.0
+    }
+  },
+  "rcp02_ar_indic_scanned": {
+    "schema": "receipt_ar",
+    "note": "Till receipt, Arabic-Indic digits, cash, faded scan",
+    "render": "scan",
+    "fields": {
+      "merchant_name": "بقالة الخير",
+      "receipt_number": "5531",
+      "receipt_date": "2026-11-02",
+      "payment_method": "cash",
+      "vat_amount": 3.0,
+      "total_amount": 63.0
+    }
+  },
+  "lic01_bi_western": {
+    "schema": "trade_licence",
+    "note": "Trade-licence style page, bilingual, Western digits",
+    "render": "clean",
+    "fields": {
+      "licence_number": "CN-4471209",
+      "trade_name_ar": "الواحة للتجارة العامة",
+      "trade_name_en": "AL WAHA GENERAL TRADING",
+      "legal_form": "شركة ذات مسؤولية محدودة",
+      "main_activity": "تجارة المواد الغذائية بالجملة",
+      "issue_date": "2024-03-17",
+      "expiry_date": "2027-03-16"
+    }
+  },
+  "lic02_bi_indic_scanned": {
+    "schema": "trade_licence",
+    "note": "Trade-licence style page, Arabic-Indic digits, scanned",
+    "render": "scan",
+    "fields": {
+      "licence_number": "CN-5532871",
+      "trade_name_ar": "نجمة الشرق للمقاولات",
+      "trade_name_en": "EASTERN STAR CONTRACTING",
+      "legal_form": "مؤسسة فردية",
+      "main_activity": "مقاولات المباني",
+      "issue_date": "2025-01-09",
+      "expiry_date": "2026-12-31"
+    }
+  }
+}

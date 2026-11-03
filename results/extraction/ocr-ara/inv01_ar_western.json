@@ -1,0 +1,57 @@
+{
+  "doc": "inv01_ar_western",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الواحة للتجارة العامة ذ.م.م",
+      "confidence": "high",
+      "source_snippet": "شركة الواحة للتجارة العامة ذ.م.م"
+    },
+    "supplier_trn": {
+      "value": "100234567800003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100234567800003"
+    },
+    "invoice_number": {
+      "value": "INV-2026-0451",
+      "confidence": "high",
+      "source_snippet": "رقم الفاتورة: ‎INV-2026-0451‏"
+    },
+    "invoice_date": {
+      "value": "2026-10-12",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 12/10/2026"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراني"
+    },
+    "subtotal": {
+      "value": 2055.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل ‎dw pall‏ 2,055.00"
+    },
+    "vat_amount": {
+      "value": 102.75,
+      "confidence": "medium",
+      "source_snippet": "ضريبة القيمة المضافة 75 102.75"
+    },
+    "total_amount": {
+      "value": 2157.75,
+      "confidence": "low",
+      "source_snippet": "الإجمالي المستحق 2112775"
+    }
+  },
+  "error": null,
+  "document_text": "شركة الواحة للتجارة العامة ذ.م.م\n\nالرقم الضريبي للمورد: 100234567800003\nالعنوان: شارع الميناء. مبنى ‎le‏ المكتب ).ا - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎INV-2026-0451‏\n‏تاريخ الفاتورة: 12/10/2026\nالعملة: درهم إماراني\n‎gl | #‏ الكمية سعر الوحدة المبلغ\n1 أوراق طباعة ‎Ad‏ (كرتون) 12 85.00 1,020.00\n‎١ 2‏ حبر طابعة أسود 4 210.00 | 840.00\n3 | ملفات بلاستيكية 30 6.50 | 195.00\nالمجموع قبل ‎dw pall‏ 2,055.00\nضريبة القيمة المضافة 75 102.75\nالإجمالي المستحق 2112775\n\nيرجى السداد خلال ‎٠.‏ يوماً من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.2,
+  "input_tokens": 4144,
+  "output_tokens": 466
+}

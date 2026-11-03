@@ -1,0 +1,42 @@
+{
+  "doc": "rcp01_ar_western",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "مقهى الياسمين",
+      "confidence": "high",
+      "source_snippet": "مقهى الياسمين"
+    },
+    "receipt_number": {
+      "value": "R-88213",
+      "confidence": "high",
+      "source_snippet": "R-88213 :رقم اإليصال"
+    },
+    "receipt_date": {
+      "value": "2026-10-30",
+      "confidence": "high",
+      "source_snippet": "التاريخ: 30/10/2026"
+    },
+    "payment_method": {
+      "value": "card",
+      "confidence": "high",
+      "source_snippet": "طريقة الدفع بطاقة ائتمان (مدى/"
+    },
+    "vat_amount": {
+      "value": 3.71,
+      "confidence": "medium",
+      "source_snippet": "منها ضريبة القيمة 3.71"
+    },
+    "total_amount": {
+      "value": 78.0,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي شامل درهم 78.00"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nمقهى الياسمين\nفرع تجريبي - هاتف 04 000 0000\nR-88213 :رقم اإليصال\nالتاريخ: 30/10/2026 الوقت: 18:42\nقهوة عربية 30.00\n15.00 × 2\nكرك 24.00\n8.00 × 3\nكعكة تمر 24.00\n12.00 × 2\nاإلجمالي شامل درهم 78.00\nالضريبة\nمنها ضريبة القيمة 3.71\nالمضافة ٪5\nطريقة الدفع بطاقة ائتمان (مدى/\nفيزا) ****4417\nشكرًا لزيارتكم",
+  "seconds": 2.3,
+  "input_tokens": 2654,
+  "output_tokens": 294
+}

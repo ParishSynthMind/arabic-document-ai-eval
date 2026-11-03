@@ -1,0 +1,57 @@
+{
+  "doc": "inv08_ar_hijri",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة رمال نجد للتوريدات",
+      "confidence": "high",
+      "source_snippet": "شركة رمال نجد للتوريدات"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد: 2ا....6011//8.ظ"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة: ‎€€/IEEN-RN‏"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الفاتورة: 6/ه.//16١‏ ه الموافق ‎ro/1-/r-M‏ م"
+    },
+    "customer_name": {
+      "value": "مستشفى الرعاية الأولى",
+      "confidence": "high",
+      "source_snippet": "العميل: مستشفى الرعاية الأولى"
+    },
+    "currency": {
+      "value": "SAR",
+      "confidence": "high",
+      "source_snippet": "العملة: ريال سعودي"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "6 | 710 ‏القيمة المضافة‎ du pd"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الإجمالي المستحق | ‎FEAL‏"
+    }
+  },
+  "error": null,
+  "document_text": "شركة رمال نجد للتوريدات\n\nالرقم الضريبي للمورد: 2ا....6011//8.ظ\nالعنوان: شارع الميناء. مبنى ‎le‏ المكتب ).ا - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎€€/IEEN-RN‏\n\nتاريخ الفاتورة: 6/ه.//16١‏ ه الموافق ‎ro/1-/r-M‏ م\n\nالعميل: مستشفى الرعاية الأولى\n\nالعملة: ريال سعودي\n# البيان الكمية سعر الوحدة المبلغ\n| مستلزمات تعقيم ‎Fre. IN.0- Ir.‏\n‎r‏ أكياس نفايات طبية :1 ‎Vl. Ir...‏\n\n6 | 710 ‏القيمة المضافة‎ du pd\n\nالإجمالي المستحق | ‎FEAL‏\n\nيرجى السداد خلال ‎٠.‏ يوماً من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 2.9,
+  "input_tokens": 4139,
+  "output_tokens": 482
+}

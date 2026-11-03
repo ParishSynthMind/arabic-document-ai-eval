@@ -1,0 +1,31 @@
+{
+  "question": {
+    "id": "q05",
+    "kind": "policy",
+    "question": "هل تقبلون الدفع نقداً؟",
+    "status": [
+      "answered"
+    ],
+    "section": "طرق الدفع",
+    "facts": [
+      [
+        "لا نقبل",
+        "لا يقبل",
+        "لا يمكن الدفع نقد",
+        "غير مقبول",
+        "غير متاح"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "original",
+  "reply": {
+    "status": "not_in_knowledge_base",
+    "reply": "I don't have that in our help docs. Would you like me to pass your question to the team?",
+    "citations": [],
+    "model_called": false,
+    "retrieved": []
+  },
+  "grounded": true,
+  "judge_reason": "fixed reply, no claims"
+}

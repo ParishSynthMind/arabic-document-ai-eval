@@ -1,0 +1,12 @@
+name: invoice_ar
+description: A supplier tax invoice, printed in Arabic or in Arabic and English (UAE / GCC).
+fields:
+  - {name: supplier_name, type: string, required: true, description: "Name of the company that issued the invoice, exactly as printed in Arabic (if only an English name is printed, use that)."}
+  - {name: supplier_trn, type: string, required: true, description: "Supplier's tax registration number (TRN / الرقم الضريبي), digits only, Western digits 0-9."}
+  - {name: invoice_number, type: string, required: true, description: "Invoice number (رقم الفاتورة) with Western digits 0-9, keeping any letters, dashes and slashes in their reading order, e.g. INV-2026-0451."}
+  - {name: invoice_date, type: date, required: true, description: "Gregorian invoice date as YYYY-MM-DD. If a Hijri date is also printed, use the Gregorian one. Numeric dates are day/month/year."}
+  - {name: customer_name, type: string, description: "Name of the customer billed (العميل), as printed."}
+  - {name: currency, type: string, required: true, description: "ISO currency code, e.g. AED for درهم, SAR for ريال سعودي, USD for دولار."}
+  - {name: subtotal, type: number, description: "Total before VAT (المجموع قبل الضريبة)."}
+  - {name: vat_amount, type: number, description: "VAT amount (ضريبة القيمة المضافة)."}
+  - {name: total_amount, type: number, required: true, description: "Total payable including VAT (الإجمالي)."}

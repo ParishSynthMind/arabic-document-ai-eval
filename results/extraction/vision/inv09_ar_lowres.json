@@ -1,0 +1,57 @@
+{
+  "doc": "inv09_ar_lowres",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الأمانة للأدوات المكتبية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة الأمانة للأدوات المكتبية"
+    },
+    "supplier_trn": {
+      "value": "100311224400003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100311224400003"
+    },
+    "invoice_number": {
+      "value": "AM-20817",
+      "confidence": "high",
+      "source_snippet": "AM-20817"
+    },
+    "invoice_date": {
+      "value": "2026-07-30",
+      "confidence": "high",
+      "source_snippet": "30/07/2026"
+    },
+    "customer_name": {
+      "value": "شركة الضياء للاستشارات",
+      "confidence": "high",
+      "source_snippet": "شركة الضياء للاستشارات"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 1275.0,
+      "confidence": "high",
+      "source_snippet": "1,275.00"
+    },
+    "vat_amount": {
+      "value": 63.75,
+      "confidence": "high",
+      "source_snippet": "63.75"
+    },
+    "total_amount": {
+      "value": 1338.75,
+      "confidence": "high",
+      "source_snippet": "1,338.75"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 3.0,
+  "input_tokens": 5302,
+  "output_tokens": 409
+}

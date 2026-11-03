@@ -1,0 +1,24 @@
+شركة البيان لتقنية المعلومات
+
+Al Bayan IT Company
+
+الرقفم الصريبي للمورد ‎VAITKE... -/ Supplier TRN‏ 1
+العنوان: شارع الميناء. ‎ie Guo‏ المكتب ‎"١‏ - عنوان تجريبي
+
+/ Tax Invoice ‏فاتورة ضريبية‎
+
+Pr.9-BY / Invoice No. ‏رقم الفاتورة‎
+r.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎
+‏مدرسة الأفق الخاصة‎ :/ Customer ‏العميل‎
+‎Jol ‏درهم‎ :/ Currency ‏العملة‎
+‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #
+Amount Unit price Qty
+Elen ‏ترخيص برنامج محاسبة (سنة) / | ماع‎ ١ ١
+Accounting software licence (1 year)
+Flere | Fo... 1 Staff training / ‏تدريب الموظفين‎ | r |
+Vee | / Subtotal ‏المجموع قبل الضريبة‎
+Plo. | 7.0 / VAT ‏ضريبة القيمة المضافة‎
+20.0 | / Total due ‏الإجمالي المستحق‎
+
+JW Ul ‏من تاريخ القاتورة هذه قاتورة تجريبية لأعراض‎ logs ٠. ‏السداد خلال‎ op
+

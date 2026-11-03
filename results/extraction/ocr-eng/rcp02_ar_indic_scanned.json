@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "receipt_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "receipt_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "payment_method": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    }
+  },
+  "error": null,
+  "document_text": "HAJ ala\n\n00k! :Juoulll ps)\nINEF -Cabgll FAVE 22a) Ul\n\n1.0. : J gjlo cub\nAvo xl\n\nV.o IE JS\nr.o- xp\n\nTEx}\n\nWoes 08) ay pall Jolin Jao gl\n1x8) . eodlayjb\n\nAsus\n",
+  "seconds": 3.5,
+  "input_tokens": 2539,
+  "output_tokens": 176
+}

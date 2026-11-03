@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة السلام للترجمة",
+      "confidence": "medium",
+      "source_snippet": "ةمَ جَ رَّتلل ملاَّسلا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "high",
+      "source_snippet": "100733418900003 :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "SL-0612",
+      "confidence": "high",
+      "source_snippet": "SL-0612 :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "18/06/2026 :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "high",
+      "source_snippet": "Northwind Legal Partners :ليمعلا"
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": "medium",
+      "source_snippet": "يكيرمأ رلاود :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 940.0,
+      "confidence": "high",
+      "source_snippet": "940.00 ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 47.0,
+      "confidence": "high",
+      "source_snippet": "47.00 ٪5 ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 987.0,
+      "confidence": "high",
+      "source_snippet": "987.00 قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nُ َ َ\nةمَ جَ رَّتلل ملاَّسلا ةكرش\nِ ِ ِ\nِ\n100733418900003 :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\nSL-0612 :ةروتافلا مقر\n18/06/2026 :ةروتافلا خيرات\nNorthwind Legal Partners :ليمعلا\nيكيرمأ رلاود :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n880.00 22.00 40 )ةحفص( ةينوناق ةمجرت 1\n60.00 60.00 1 ةمجرتلا قيدصت 2\n940.00 ةبيرضلا لبق عومجملا\n47.00 ٪5 ةفاضملا ةميقلا ةبيرض\n987.00 قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 5.7,
+  "input_tokens": 4195,
+  "output_tokens": 821
+}

@@ -1,0 +1,39 @@
+{
+  "question": {
+    "id": "q02",
+    "kind": "hours",
+    "question": "هل تعملون يوم الجمعة؟",
+    "status": [
+      "answered"
+    ],
+    "section": "أوقات العمل",
+    "facts": [
+      [
+        "2 ظهر",
+        "الثانية ظهر",
+        "2 مساء",
+        "2 م",
+        "2:00",
+        "14:00"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "answered",
+    "reply": "نعم، نعمل يوم الجمعة من الساعة 2 ظهراً حتى 8 مساءً. أما من السبت إلى الخميس فأوقات العمل من 8 صباحاً حتى 8 مساءً.",
+    "citations": [
+      {
+        "source": "booking-and-cancellation.md",
+        "heading": "أوقات العمل"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "أوقات العمل"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply's working hours match the knowledge base: Friday from 2 PM to 8 PM, and Saturday to Thursday from 8 AM to 8 PM. It adds no unsupported claims."
+}

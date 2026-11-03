@@ -1,0 +1,64 @@
+{
+  "hold01_ar_indic_sep_scanned": {
+    "schema": "invoice_ar",
+    "note": "HOLDOUT. Arabic-Indic separators, scanned, five-figure amounts",
+    "render": "scan",
+    "fields": {
+      "supplier_name": "شركة الأفق الأخضر للمعدات الزراعية",
+      "supplier_trn": "100562718300003",
+      "invoice_number": "AK-7730",
+      "invoice_date": "2026-09-14",
+      "customer_name": "مزرعة الواحات الخضراء",
+      "currency": "AED",
+      "subtotal": 27512.5,
+      "vat_amount": 1375.62,
+      "total_amount": 28888.12
+    }
+  },
+  "hold02_bi_indic_ids": {
+    "schema": "invoice_ar",
+    "note": "HOLDOUT. Bilingual, Arabic-Indic digits, IDs with letters and slashes",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "شركة النور للأنظمة الأمنية",
+      "supplier_trn": "100937261500003",
+      "invoice_number": "NS/26-0417",
+      "invoice_date": "2026-10-02",
+      "customer_name": "Marina Heights Owners Association",
+      "currency": "AED",
+      "subtotal": 14140.0,
+      "vat_amount": 707.0,
+      "total_amount": 14847.0
+    }
+  },
+  "hold03_ar_indic_sep_clean": {
+    "schema": "invoice_ar",
+    "note": "HOLDOUT. Arabic-Indic separators, clean, six-figure total",
+    "render": "clean",
+    "fields": {
+      "supplier_name": "مؤسسة البناء المتين للمقاولات",
+      "supplier_trn": "100418829600003",
+      "invoice_number": "BM-2026-0093",
+      "invoice_date": "2026-07-07",
+      "customer_name": "شركة أبراج الخليج العقارية",
+      "currency": "AED",
+      "subtotal": 137700.0,
+      "vat_amount": 6885.0,
+      "total_amount": 144585.0
+    }
+  },
+  "hold04_lic_indic_scanned": {
+    "schema": "trade_licence",
+    "note": "HOLDOUT. Licence page, Arabic-Indic digits, scanned",
+    "render": "scan",
+    "fields": {
+      "licence_number": "CN-6618204",
+      "trade_name_ar": "لمسة الإبداع للديكور",
+      "trade_name_en": "CREATIVE TOUCH DECOR",
+      "legal_form": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+      "main_activity": "أعمال الديكور الداخلي",
+      "issue_date": "2025-06-22",
+      "expiry_date": "2026-06-21"
+    }
+  }
+}

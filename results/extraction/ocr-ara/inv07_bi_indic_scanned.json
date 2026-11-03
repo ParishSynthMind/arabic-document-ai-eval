@@ -1,0 +1,57 @@
+{
+  "doc": "inv07_bi_indic_scanned",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الصحراء الذهبية للسياحة",
+      "confidence": "high",
+      "source_snippet": "شركة الصحراء الذهبية للسياحة"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد ‎I--€0WASL..+ / Supplier TRN‏"
+    },
+    "invoice_number": {
+      "value": "001-67",
+      "confidence": "medium",
+      "source_snippet": "رقم الفاتورة ‎Invoice No.‏ /؛ 001-67"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "JAY / Invoice date ‏تازيخ الفاتوزة‎"
+    },
+    "customer_name": {
+      "value": "Blue Horizon Events LLC",
+      "confidence": "high",
+      "source_snippet": "Blue Horizon Events LLC :/ Customer ‏العميل‎"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "‏درهم إماراني‎ :/ Currency ‏العملة‎"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "/ Subtotal au pal ‏قبل‎ £9020"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "%.0/ VAT ‏القيمة المضافة‎ au po"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "/ Total due ‏الإجمالي المستحق‎"
+    }
+  },
+  "error": null,
+  "document_text": "شركة الصحراء الذهبية للسياحة\n\nGolden Desert Tourism Co.\n\nالرقم الضريبي للمورد ‎I--€0WASL..+ / Supplier TRN‏\nالعنوان: شارع الميناع. ‎Je io‏ المكتب ‎Pr‏ - عنوان تجريبي\n\n/\n\nTax Invoice ‏فاتورة ضريبية‎\n\nرقم الفاتورة ‎Invoice No.‏ /؛ 001-67\n\nJAY / Invoice date ‏تازيخ الفاتوزة‎\n\nBlue Horizon Events LLC :/ Customer ‏العميل‎\n‏درهم إماراني‎ :/ Currency ‏العملة‎\n\n| المبلغ/ [\n\nAmount\n\n/ Unit ‏سعر الوحدة‎ / Description ‏البيان‎\n‎_ price 1 : : ١\n\n3 Desert / ‏سفازى صجزاوية‎ als)\n2 safari\n\n.ءالا\n\nBedouin dinner / ‏عشاء بدوي‎\n/ Subtotal au pal ‏قبل‎ £9020\n\n%.0/ VAT ‏القيمة المضافة‎ au po\n/ Total due ‏الإجمالي المستحق‎\n\nrE. es\n\nير السداد خلال .ا ‎logy‏ من تاريخ الفاتورة. هذه فاتوزة تجريبية لأغراض الاختبار.\n\n",
+  "seconds": 3.4,
+  "input_tokens": 4245,
+  "output_tokens": 528
+}

@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "Pea ch ‏رقم‎"
+    },
+    "trade_name_ar": {
+      "value": "ق للمقاولات",
+      "confidence": "low",
+      "source_snippet": "الاسم التجاري ‎Trade name‏ / ق للمقاولات"
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR",
+      "confidence": "medium",
+      "source_snippet": "‎EASTERN STAR aaa‏"
+    },
+    "legal_form": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "main_activity": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "issue_date": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "expiry_date": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    }
+  },
+  "error": null,
+  "document_text": "مكتب التنمية الاقتصادية - مدينة الواحة\n\n08515 City Economic Office (fictional authority)\n\n/ Commercial Licence ‏تجارية‎ duns)\n\nPea ch ‏رقم‎\n\nالاسم التجاري ‎Trade name‏ / ق للمقاولات\n‎EASTERN STAR aaa‏\n\nهذه وثبقة نموذجية لأغراض الاختبار فقط وليست صادرة عن أي جهة حكومية حقيقية\n\n",
+  "seconds": 2.1,
+  "input_tokens": 3030,
+  "output_tokens": 279
+}

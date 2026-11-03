@@ -1,0 +1,10 @@
+name: trade_licence
+description: A commercial / trade licence page (Arabic with English).
+fields:
+  - {name: licence_number, type: string, required: true, description: "Licence number with Western digits 0-9, keeping letters and dashes in reading order, e.g. CN-1234567."}
+  - {name: trade_name_ar, type: string, required: true, description: "Trade name in Arabic, exactly as printed."}
+  - {name: trade_name_en, type: string, description: "Trade name in English, exactly as printed."}
+  - {name: legal_form, type: string, description: "Legal form (الشكل القانوني) exactly as printed in Arabic."}
+  - {name: main_activity, type: string, description: "Main activity (النشاط الرئيسي) exactly as printed in Arabic."}
+  - {name: issue_date, type: date, required: true, description: "Issue date as YYYY-MM-DD. Numeric dates are day/month/year."}
+  - {name: expiry_date, type: date, required: true, description: "Expiry date as YYYY-MM-DD. Numeric dates are day/month/year."}

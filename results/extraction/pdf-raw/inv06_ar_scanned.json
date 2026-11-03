@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مطبعة الفجر الحديثة",
+      "confidence": "medium",
+      "source_snippet": "ةثيدحلا رجفلا ةعبطم"
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "high",
+      "source_snippet": "100923347100003 :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "high",
+      "source_snippet": "F-2026-0098 :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "high",
+      "source_snippet": "05/10/2026 :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "جمعية البر الخيرية",
+      "confidence": "medium",
+      "source_snippet": "ةيريخلا ربلا ةيعمج :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 2550,
+      "confidence": "high",
+      "source_snippet": "2,550.00 ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 127.5,
+      "confidence": "high",
+      "source_snippet": "127.50 ٪5 ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 2677.5,
+      "confidence": "high",
+      "source_snippet": "2,677.50 قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةثيدحلا رجفلا ةعبطم\n100923347100003 :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\nF-2026-0098 :ةروتافلا مقر\n05/10/2026 :ةروتافلا خيرات\nةيريخلا ربلا ةيعمج :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n2,100.00 4.20 500 ةنولم تابيتك ةعابط 1\n450.00 450.00 1 فلاغ ميمصت 2\n2,550.00 ةبيرضلا لبق عومجملا\n127.50 ٪5 ةفاضملا ةميقلا ةبيرض\n2,677.50 قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 7.0,
+  "input_tokens": 4172,
+  "output_tokens": 978
+}

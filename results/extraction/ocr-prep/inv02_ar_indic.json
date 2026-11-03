@@ -1,0 +1,57 @@
+{
+  "doc": "inv02_ar_indic",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الريان للأجهزة الكهربائية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة الريان للأجهزة الكهربائية"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "‎1-FAVIIFE jg ol) Ju pall gop!‏"
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة: ا"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "تاريخ الفاتورة: 1.9/0.0"
+    },
+    "customer_name": {
+      "value": "فندق اللؤلؤة الزرقاء",
+      "confidence": "high",
+      "source_snippet": "العميل: فندق اللؤلؤة الزرقاء"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "| المجموع قبل الضريبة"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "| ضريبة القيمة المضافة 7.0"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "| الإجمالي المستحق"
+    }
+  },
+  "error": null,
+  "document_text": "مؤسسة الريان للأجهزة الكهربائية\n‎1-FAVIIFE jg ol) Ju pall gop!‏\nالعنوان: شارع الميناء. ‎JE Guo‏ المكتب ‎٠.١‏ - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ا\nتاريخ الفاتورة: 1.9/0.0\n\nالعميل: فندق اللؤلؤة الزرقاء\n\nالعملة: درهم ‎Jol‏\n\n| # | البيان | الكمية ِِ سعر الوحدة\n\n| المجموع قبل الضريبة\n| ضريبة القيمة المضافة 7.0\n| الإجمالي المستحق\n\n‎op‏ السداد خلال ‎logs ٠١.‏ من ناريخ القاتورة هذه فاتورة تجريبية لأغراض الاختبار\n\n‏المبلغ\n‏ماع\n\n‎Vo.\n\n‎o.l.\n\n‎roo.\n\n‎0,P00. eo\n\n",
+  "seconds": 3.4,
+  "input_tokens": 4098,
+  "output_tokens": 455
+}

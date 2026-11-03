@@ -1,0 +1,37 @@
+{
+  "question": {
+    "id": "q06",
+    "kind": "gulf dialect",
+    "question": "ابي اعرف شو المناطق اللي تغطونها؟ تجون أبوظبي؟",
+    "status": [
+      "answered"
+    ],
+    "section": "المناطق التي نغطيها",
+    "facts": [
+      [
+        "دبي"
+      ],
+      [
+        "الشارقه"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "نخدم جميع مناطق دبي والشارقة. للأسف ما نقدم خدماتنا حالياً في أبوظبي، وكذلك ما نغطي عجمان والعين.",
+    "citations": [
+      {
+        "source": "services-and-prices.md",
+        "heading": "المناطق التي نغطيها"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "المناطق التي نغطيها"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply matches the knowledge base: it covers all areas of Dubai and Sharjah and does not currently serve Abu Dhabi, Ajman or Al Ain. It adds no unsupported claims."
+}

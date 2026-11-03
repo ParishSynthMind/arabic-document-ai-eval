@@ -1,0 +1,57 @@
+{
+  "doc": "inv05_ar_indic_separators",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة المرجان للمعدات الطبية",
+      "confidence": "high",
+      "source_snippet": "شركة المرجان للمعدات الطبية"
+    },
+    "supplier_trn": {
+      "value": "100845561200003",
+      "confidence": "medium",
+      "source_snippet": "الرقم الضريبي للمورد: ١٠٠٨٤٥٥٦١٢٠٠٠٠٣"
+    },
+    "invoice_number": {
+      "value": "MR-1042",
+      "confidence": "high",
+      "source_snippet": "١٠٤٢-MR"
+    },
+    "invoice_date": {
+      "value": "2026-08-21",
+      "confidence": "high",
+      "source_snippet": "٢١/٠٨/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "عيادة الشفاء التخصصية",
+      "confidence": "high",
+      "source_snippet": "عيادة الشفاء التخصصية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 100258.5,
+      "confidence": "medium",
+      "source_snippet": "١٠٠٢٥٨٫٥٠"
+    },
+    "vat_amount": {
+      "value": 5012.92,
+      "confidence": "medium",
+      "source_snippet": "٥٠١٢٫٩٢"
+    },
+    "total_amount": {
+      "value": 105271.42,
+      "confidence": "low",
+      "source_snippet": "١٠٠٧٧١٫٤٢"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 3.9,
+  "input_tokens": 8540,
+  "output_tokens": 477
+}

@@ -1,0 +1,47 @@
+{
+  "doc": "hold04_lic_indic_scanned",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-6618204",
+      "confidence": "medium",
+      "source_snippet": "٦٦١٨٢٠٤-CN / Licence No. ةصخرلا مقر"
+    },
+    "trade_name_ar": {
+      "value": "لمسة الإبداع للديكور",
+      "confidence": "medium",
+      "source_snippet": "روكيدلل عادبلإا ةسمل / Trade name يراجتلا مسلاا"
+    },
+    "trade_name_en": {
+      "value": "CREATIVE TOUCH DECOR",
+      "confidence": "high",
+      "source_snippet": "CREATIVE TOUCH DECOR"
+    },
+    "legal_form": {
+      "value": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+      "confidence": "medium",
+      "source_snippet": "ةدودحملا ةيلوؤسملا تاذ دحاولا صخشلا ةكرش / Legal form ينوناقلا لكشلا"
+    },
+    "main_activity": {
+      "value": "أعمال الديكور الداخلي",
+      "confidence": "medium",
+      "source_snippet": "يلخادلا روكيدلا لامعأ / Main activity يسيئرلا طاشنلا"
+    },
+    "issue_date": {
+      "value": "2025-06-22",
+      "confidence": "high",
+      "source_snippet": "٢٢/٠٦/٢٠٢٥ / Issue date رادصلإا خيرات"
+    },
+    "expiry_date": {
+      "value": "2026-06-21",
+      "confidence": "high",
+      "source_snippet": "٢١/٠٦/٢٠٢٦ / Expiry date ءاهتنلاا خيرات"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةحاولا ةنيدم - ةيداصتقلاا ةيمنتلا بتكم\nOasis City Economic Office (fictional authority)\n/ Commercial Licence ةيراجت ةصخر\n٦٦١٨٢٠٤-CN / Licence No. ةصخرلا مقر\nروكيدلل عادبلإا ةسمل / Trade name يراجتلا مسلاا\nCREATIVE TOUCH DECOR\nةدودحملا ةيلوؤسملا تاذ دحاولا صخشلا ةكرش / Legal form ينوناقلا لكشلا\nيلخادلا روكيدلا لامعأ / Main activity يسيئرلا طاشنلا\n٢٢/٠٦/٢٠٢٥ / Issue date رادصلإا خيرات\n٢١/٠٦/٢٠٢٦ / Expiry date ءاهتنلاا خيرات\nE\nL\n.ةيقيقح ةيموكح ةهج يأ نع ةرداص تسيلو طقف رابتخلاا ضارغلأ ةيجذومن ةقيثو هذه\nP\nM\nA\nS\nع\nي\nن\nة",
+  "seconds": 4.1,
+  "input_tokens": 3278,
+  "output_tokens": 533
+}

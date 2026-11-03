@@ -1,0 +1,27 @@
+{
+  "question": {
+    "id": "q12",
+    "kind": "English question",
+    "question": "Do you have an emergency plumber at the weekend, and what does it cost?",
+    "status": [
+      "answered"
+    ],
+    "section": "خدمة الطوارئ",
+    "facts": [
+      [
+        "199"
+      ]
+    ],
+    "lang": "en"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "not_in_knowledge_base",
+    "reply": "I don't have that in our help docs. Would you like me to pass your question to the team?",
+    "citations": [],
+    "model_called": false,
+    "retrieved": []
+  },
+  "grounded": true,
+  "judge_reason": "fixed reply, no claims"
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "medium",
+      "source_snippet": "100733418900003 :3jg.0l Ly pall pol"
+    },
+    "invoice_number": {
+      "value": "SL-0612",
+      "confidence": "medium",
+      "source_snippet": "SL-0612 :0jgilall 0d)"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "18/06/2026 :8)gilall au)G"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "medium",
+      "source_snippet": "Northwind Legal Partners : Jao]"
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": 940.0,
+      "confidence": "medium",
+      "source_snippet": "940.00 | aw pAll Jub ggooall"
+    },
+    "vat_amount": {
+      "value": 47.0,
+      "confidence": "medium",
+      "source_snippet": "47.00 | 7.5 do Lia! doud)l du ju"
+    },
+    "total_amount": {
+      "value": 987.0,
+      "confidence": "medium",
+      "source_snippet": "987.00 | $aiwall Joo yl"
+    }
+  },
+  "error": null,
+  "document_text": "= =\n\n- .\n\n100733418900003 :3jg.0l Ly pall pol\n\nday p16 049i Lo\n\nSL-0612 :0jgilall 0d)\n18/06/2026 :8)gilall au)G\nNorthwind Legal Partners : Jao]\nAuyol jUgs :aoell\nalioJl 8200)1 youu das oul | #\n880.00 22.00 40 (dodo) digild dooyi | 1\n60.00 | 60.00 1 doo il @owai | 2\n940.00 | aw pAll Jub ggooall\n47.00 | 7.5 do Lia! doud)l du ju\n987.00 | $aiwall Joo yl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go log Po JUS shad! op\n",
+  "seconds": 2.9,
+  "input_tokens": 4006,
+  "output_tokens": 422
+}

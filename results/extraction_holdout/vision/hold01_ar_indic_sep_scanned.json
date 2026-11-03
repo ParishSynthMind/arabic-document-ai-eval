@@ -1,0 +1,57 @@
+{
+  "doc": "hold01_ar_indic_sep_scanned",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الأفق الأخضر للمعدات الزراعية",
+      "confidence": "high",
+      "source_snippet": "شركة الأفق الأخضر للمعدات الزراعية"
+    },
+    "supplier_trn": {
+      "value": "300378172650",
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمورد: ٣٠٠٠٠١٨٣٧١٢٦٥٠١٠٠"
+    },
+    "invoice_number": {
+      "value": "AK-0377",
+      "confidence": "low",
+      "source_snippet": "٧٧٣٠-AK"
+    },
+    "invoice_date": {
+      "value": "2026-09-14",
+      "confidence": "medium",
+      "source_snippet": "١٤/٠٩/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "مزرعة الواحات الخضراء",
+      "confidence": "high",
+      "source_snippet": "مزرعة الواحات الخضراء"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 27051250,
+      "confidence": "low",
+      "source_snippet": "٢٧٠٥١٢٥٠٫٥٠"
+    },
+    "vat_amount": {
+      "value": 1352562.5,
+      "confidence": "low",
+      "source_snippet": "١٠٣٧٥٠٦٢"
+    },
+    "total_amount": {
+      "value": 28403812.5,
+      "confidence": "low",
+      "source_snippet": "٢٨٠٨٨٨٠١٢"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 7.1,
+  "input_tokens": 8563,
+  "output_tokens": 498
+}

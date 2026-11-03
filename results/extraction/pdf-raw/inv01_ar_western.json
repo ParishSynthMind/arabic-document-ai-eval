@@ -1,0 +1,57 @@
+{
+  "doc": "inv01_ar_western",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الواحة للتجارة العامة ذ.م.م",
+      "confidence": "medium",
+      "source_snippet": "م.م.ذ ةماعلا ةراجتلل ةحاولا ةكرش"
+    },
+    "supplier_trn": {
+      "value": "100234567800003",
+      "confidence": "high",
+      "source_snippet": "100234567800003 :دروملل يبيرضلا مقرلا"
+    },
+    "invoice_number": {
+      "value": "INV-2026-0451",
+      "confidence": "high",
+      "source_snippet": "INV-2026-0451 :ةروتافلا مقر"
+    },
+    "invoice_date": {
+      "value": "2026-10-12",
+      "confidence": "high",
+      "source_snippet": "12/10/2026 :ةروتافلا خيرات"
+    },
+    "customer_name": {
+      "value": "مؤسسة النخيل للمقاولات",
+      "confidence": "medium",
+      "source_snippet": "تلاواقملل ليخنلا ةسسؤم :ليمعلا"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "يتارامإ مهرد :ةلمعلا"
+    },
+    "subtotal": {
+      "value": 2055.0,
+      "confidence": "high",
+      "source_snippet": "2,055.00 ةبيرضلا لبق عومجملا"
+    },
+    "vat_amount": {
+      "value": 102.75,
+      "confidence": "high",
+      "source_snippet": "102.75 ٪5 ةفاضملا ةميقلا ةبيرض"
+    },
+    "total_amount": {
+      "value": 2157.75,
+      "confidence": "high",
+      "source_snippet": "2,157.75 قحتسملا يلامجلإا"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nم.م.ذ ةماعلا ةراجتلل ةحاولا ةكرش\n100234567800003 :دروملل يبيرضلا مقرلا\nيبيرجت ناونع - ٣٠٢ بتكملا ،١٤ ىنبم ،ءانيملا عراش :ناونعلا\nةيبيرض ةروتاف\nINV-2026-0451 :ةروتافلا مقر\n12/10/2026 :ةروتافلا خيرات\nتلاواقملل ليخنلا ةسسؤم :ليمعلا\nيتارامإ مهرد :ةلمعلا\nغلبملا ةدحولا رعس ةيمكلا نايبلا #\n1,020.00 85.00 12 )نوترك( A4 ةعابط قاروأ 1\n840.00 210.00 4 دوسأ ةعباط ربح 2\n195.00 6.50 30 ةيكيتسلاب تافلم 3\n2,055.00 ةبيرضلا لبق عومجملا\n102.75 ٪5 ةفاضملا ةميقلا ةبيرض\n2,157.75 قحتسملا يلامجلإا\n.رابتخلاا ضارغلأ ةيبيرجت ةروتاف هذه .ةروتافلا خيرات نم اًموي ٣٠ للاخ دادسلا ىجري",
+  "seconds": 7.4,
+  "input_tokens": 4222,
+  "output_tokens": 949
+}

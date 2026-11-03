@@ -1,0 +1,29 @@
+{
+  "question": {
+    "id": "q10",
+    "kind": "complaint",
+    "question": "الفني ما جا في موعده أمس وأنا متضايق جداً، أبي حل",
+    "status": [
+      "needs_human"
+    ],
+    "section": null,
+    "facts": [],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "needs_human",
+    "reply": "نعتذر منك على هذه التجربة، ونتفهم انزعاجك. هذه المسألة تخص حجزك وتحتاج إلى متابعة من أحد أعضاء فريقنا، وسيتواصل معك أحدهم للمساعدة وإيجاد حل مناسب في أقرب وقت.",
+    "citations": [],
+    "model_called": true,
+    "retrieved": [
+      "موعد وصول الفني",
+      "إلغاء الحجز وتعديله",
+      "طرق الدفع",
+      "الكهرباء",
+      "السباكة"
+    ]
+  },
+  "grounded": false,
+  "judge_reason": "The knowledge base has nothing about missed appointments or compensation. The reply does not give any false facts, but it promises that a team member will contact the customer soon to find a solution. This is a commitment the knowledge base does not support, because it never describes any such follow-up process or timeline. The reply doesn't merely offer to pass the question to the team; it promises that someone will reach out soon."
+}

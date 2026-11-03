@@ -1,0 +1,47 @@
+{
+  "doc": "lic02_bi_indic_scanned",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-5532871",
+      "confidence": "medium",
+      "source_snippet": "٥٥٣٢٨٧١-CN / Licence No. رقم الرخصة"
+    },
+    "trade_name_ar": {
+      "value": "نجمة الشرق للمقاوالت",
+      "confidence": "high",
+      "source_snippet": "االسم التجاري Trade name / نجمة الشرق للمقاوالت"
+    },
+    "trade_name_en": {
+      "value": "EASTERN STAR CONTRACTING",
+      "confidence": "high",
+      "source_snippet": "EASTERN STAR CONTRACTING"
+    },
+    "legal_form": {
+      "value": "مؤسسة فردية",
+      "confidence": "high",
+      "source_snippet": "الشكل القانوني Legal form / مؤسسة فردية"
+    },
+    "main_activity": {
+      "value": "مقاوالت المباني",
+      "confidence": "high",
+      "source_snippet": "النشاط الرئيسي Main activity / مقاوالت المباني"
+    },
+    "issue_date": {
+      "value": "2025-01-09",
+      "confidence": "high",
+      "source_snippet": "٠٩/٠١/٢٠٢٥ / Issue date تاريخ اإلصدار"
+    },
+    "expiry_date": {
+      "value": "2026-12-31",
+      "confidence": "high",
+      "source_snippet": "٣١/١٢/٢٠٢٦ / Expiry date تاريخ االنتهاء"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nمكتب التنمية االقتصادية - مدينة الواحة\nOasis City Economic Office (fictional authority)\n/ Commercial Licence رخصة تجارية\n٥٥٣٢٨٧١-CN / Licence No. رقم الرخصة\nاالسم التجاري Trade name / نجمة الشرق للمقاوالت\nEASTERN STAR CONTRACTING\nالشكل القانوني Legal form / مؤسسة فردية\nالنشاط الرئيسي Main activity / مقاوالت المباني\n٠٩/٠١/٢٠٢٥ / Issue date تاريخ اإلصدار\n٣١/١٢/٢٠٢٦ / Expiry date تاريخ االنتهاء\nE\nL\nهذه وثيقة نموذجية ألغراض االختبار فقط وليست صادرة عن أي جهة حكومية حقيقية.\nP\nM\nA\nS\nع\nي\nن\nة",
+  "seconds": 4.5,
+  "input_tokens": 3193,
+  "output_tokens": 459
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv10_ar_tashkeel_usd",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة السالم للترجمة",
+      "confidence": "medium",
+      "source_snippet": "شركة السَّالم للتَّر َج َمة"
+    },
+    "supplier_trn": {
+      "value": "100733418900003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100733418900003"
+    },
+    "invoice_number": {
+      "value": "SL-0612",
+      "confidence": "high",
+      "source_snippet": "SL-0612 :رقم الفاتورة"
+    },
+    "invoice_date": {
+      "value": "2026-06-18",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: 18/06/2026"
+    },
+    "customer_name": {
+      "value": "Northwind Legal Partners",
+      "confidence": "high",
+      "source_snippet": "Northwind Legal Partners :العميل"
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": "high",
+      "source_snippet": "العملة: دوالر أمريكي"
+    },
+    "subtotal": {
+      "value": 940.0,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة 940.00"
+    },
+    "vat_amount": {
+      "value": 47.0,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٪5 47.00"
+    },
+    "total_amount": {
+      "value": 987.0,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق 987.00"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nُ َ َ\nشركة السَّالم للتَّر َج َمة\nِ ِ ِ\nِ\nالرقم الضريبي للمورد: 100733418900003\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\nSL-0612 :رقم الفاتورة\nتاريخ الفاتورة: 18/06/2026\nNorthwind Legal Partners :العميل\nالعملة: دوالر أمريكي\n# البيان الكمية سعر الوحدة المبلغ\n1 ترجمة قانونية (صفحة) 40 22.00 880.00\n2 تصديق الترجمة 1 60.00 60.00\nالمجموع قبل الضريبة 940.00\nضريبة القيمة المضافة ٪5 47.00\nاإلجمالي المستحق 987.00\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.5,
+  "input_tokens": 4121,
+  "output_tokens": 461
+}

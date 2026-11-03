@@ -1,0 +1,29 @@
+{
+  "question": {
+    "id": "q10",
+    "kind": "complaint",
+    "question": "الفني ما جا في موعده أمس وأنا متضايق جداً، أبي حل",
+    "status": [
+      "needs_human"
+    ],
+    "section": null,
+    "facts": [],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "needs_human",
+    "reply": "أعتذر منك على هذه التجربة، ومعك حق أن تكون متضايقاً. هذه الحالة تحتاج متابعة من أحد أفراد فريقنا للاطلاع على حجزك ومعرفة ما حصل وإيجاد الحل المناسب. سيتواصل معك شخص من الفريق في أقرب وقت.",
+    "citations": [],
+    "model_called": true,
+    "retrieved": [
+      "موعد وصول الفني",
+      "إلغاء الحجز وتعديله",
+      "طرق الدفع",
+      "الكهرباء",
+      "السباكة"
+    ]
+  },
+  "grounded": false,
+  "judge_reason": "The reply promises that someone from the team will contact the customer as soon as possible. The knowledge base says nothing about such a follow-up process, so this commitment is unsupported. Offering to pass the issue to the team would be fine, but the reply states that a team member will definitely reach out."
+}

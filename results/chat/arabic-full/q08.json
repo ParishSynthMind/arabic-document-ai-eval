@@ -1,0 +1,26 @@
+{
+  "question": {
+    "id": "q08",
+    "kind": "not in KB",
+    "question": "هل تبيعون قطع غيار للسيارات؟",
+    "status": [
+      "not_in_knowledge_base"
+    ],
+    "section": null,
+    "facts": [],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "not_in_knowledge_base",
+    "reply": "عذراً، لا تتوفر لدي معلومات عن بيع قطع غيار السيارات، وخدماتنا في المعلومات المتاحة لدي تخص الصيانة المنزلية. يسعدني تحويل سؤالك إلى فريقنا إن رغبت.",
+    "citations": [],
+    "model_called": true,
+    "retrieved": [
+      "الضمان",
+      "الكهرباء"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply says it has no information about selling car spare parts, notes that the available services concern home maintenance (consistent with the knowledge base), and offers to pass the question to the team. This kind of response is always grounded and it makes no unsupported claims."
+}

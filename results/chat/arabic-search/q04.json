@@ -1,0 +1,38 @@
+{
+  "question": {
+    "id": "q04",
+    "kind": "policy",
+    "question": "ما مدة الضمان على أعمال السباكة؟",
+    "status": [
+      "answered"
+    ],
+    "section": "الضمان",
+    "facts": [
+      [
+        "90"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-search",
+  "reply": {
+    "status": "answered",
+    "reply": "نقدم ضمان 90 يوماً على أعمال السباكة. يُرجى العلم أن الضمان لا يشمل قطع الغيار التي يوفرها العميل بنفسه.",
+    "citations": [
+      {
+        "source": "warranty-and-payments.md",
+        "heading": "الضمان"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "الضمان",
+      "الضمان والدفع",
+      "الكهرباء",
+      "الفواتير",
+      "خدمة الطوارئ"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply's claims match the knowledge base: 90-day warranty on plumbing work, and the warranty excludes spare parts supplied by the customer."
+}

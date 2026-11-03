@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مطبعة الفجر الحديثة",
+      "confidence": "high",
+      "source_snippet": "مطبعة الفجر الحديثة"
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "high",
+      "source_snippet": "100923347100003"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "high",
+      "source_snippet": "F-2026-0098"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "high",
+      "source_snippet": "05/10/2026"
+    },
+    "customer_name": {
+      "value": "جمعية البر الخيرية",
+      "confidence": "high",
+      "source_snippet": "جمعية البر الخيرية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 2550.0,
+      "confidence": "high",
+      "source_snippet": "2,550.00"
+    },
+    "vat_amount": {
+      "value": 127.5,
+      "confidence": "high",
+      "source_snippet": "127.50"
+    },
+    "total_amount": {
+      "value": 2677.5,
+      "confidence": "high",
+      "source_snippet": "2,677.50"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 5.4,
+  "input_tokens": 8482,
+  "output_tokens": 380
+}

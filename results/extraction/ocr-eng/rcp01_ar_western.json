@@ -1,0 +1,42 @@
+{
+  "doc": "rcp01_ar_western",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "receipt_number": {
+      "value": "88213",
+      "confidence": "medium",
+      "source_snippet": "R-88213 : Joy Ul ad)"
+    },
+    "receipt_date": {
+      "value": "2026-10-30",
+      "confidence": "medium",
+      "source_snippet": "18:42 :cubgll 30/10/2026 20) Ul!"
+    },
+    "payment_method": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "7.5 aolanll"
+    },
+    "total_amount": {
+      "value": 78.0,
+      "confidence": "low",
+      "source_snippet": "78.00 a0)> Jol Joo yl"
+    }
+  },
+  "error": null,
+  "document_text": "0000 000 04 (alo - Lu j2 £40\n\nR-88213 : Joy Ul ad)\n18:42 :cubgll 30/10/2026 20) Ul!\n\n30.00 duc bgab\n15.00 x 2\n\n2400 us\n8.00 x3\n\n2400 105 d40%\n12.00 x 2\n\n78.00 a0)> Jol Joo yl\n7.5 aolanll\n\n4417 (1 juo\n\nPECITTAIEV\n",
+  "seconds": 3.1,
+  "input_tokens": 2574,
+  "output_tokens": 252
+}

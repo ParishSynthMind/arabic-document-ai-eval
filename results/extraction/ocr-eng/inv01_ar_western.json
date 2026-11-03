@@ -1,0 +1,57 @@
+{
+  "doc": "inv01_ar_western",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": "100234567800003",
+      "confidence": "medium",
+      "source_snippet": "100234567800003 :3jg0l) Lu pall aol"
+    },
+    "invoice_number": {
+      "value": "INV-2026-0451",
+      "confidence": "high",
+      "source_snippet": "INV-2026-0451 :6)gilall pd)"
+    },
+    "invoice_date": {
+      "value": "2026-10-12",
+      "confidence": "medium",
+      "source_snippet": "12/10/2026 0)gilall aU"
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": 2055.0,
+      "confidence": "medium",
+      "source_snippet": "2,055.00 dw pall Jud ggoaoll"
+    },
+    "vat_amount": {
+      "value": 102.75,
+      "confidence": "medium",
+      "source_snippet": "102.75 7.5 &olirol dotdll du pd"
+    },
+    "total_amount": {
+      "value": 2157.75,
+      "confidence": "medium",
+      "source_snippet": "2157.75 Gaia! Jao gl"
+    }
+  },
+  "error": null,
+  "document_text": "0.0.5 dolell 6yloill dslgll dS puis\n\n100234567800003 :3jg0l) Lu pall aol\nGUIS Jlgie - Pr dbl! le Guo welizall gl :glgiell\n\nday p16 049i Lo\n\nINV-2026-0451 :6)gilall pd)\n12/10/2026 0)gilall aU\nJol ao) :aoell\n&laJl 80g)! youu dns gl | #\n1,020.00 85.00 12 (gis) Ad dc @lygi 1\n840.00 | 210.00 4 squidoo po | 2\n195.00 | 6.50 30 dsl olalo | 3\n2,055.00 dw pall Jud ggoaoll\n102.75 7.5 &olirol dotdll du pd\n2157.75 Gaia! Jao gl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go log Po JUS shad! op\n",
+  "seconds": 3.1,
+  "input_tokens": 4060,
+  "output_tokens": 400
+}

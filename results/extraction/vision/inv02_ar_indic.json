@@ -1,0 +1,57 @@
+{
+  "doc": "inv02_ar_indic",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الريان للأجهزة الكهربائية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة الريان للأجهزة الكهربائية"
+    },
+    "supplier_trn": {
+      "value": "100387612400003",
+      "confidence": "medium",
+      "source_snippet": "الرقم الضريبي للمورد: ٣٠٠٠٠٤٢١٦٧٨٣٠٠١"
+    },
+    "invoice_number": {
+      "value": "2026/118",
+      "confidence": "medium",
+      "source_snippet": "٢٠٢٦/١١٨"
+    },
+    "invoice_date": {
+      "value": "2026-09-03",
+      "confidence": "medium",
+      "source_snippet": "٠٣/٠٩/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "فندق اللؤلؤة الزرقاء",
+      "confidence": "high",
+      "source_snippet": "فندق اللؤلؤة الزرقاء"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 5100.0,
+      "confidence": "high",
+      "source_snippet": "٥,١٠٠.٠٠"
+    },
+    "vat_amount": {
+      "value": 255.0,
+      "confidence": "high",
+      "source_snippet": "٢٥٥.٠٠"
+    },
+    "total_amount": {
+      "value": 5355.0,
+      "confidence": "high",
+      "source_snippet": "٥,٣٥٥.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 4.3,
+  "input_tokens": 8540,
+  "output_tokens": 487
+}

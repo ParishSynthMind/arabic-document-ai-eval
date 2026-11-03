@@ -1,0 +1,47 @@
+{
+  "doc": "hold04_lic_indic_scanned",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-4026117",
+      "confidence": "low",
+      "source_snippet": "٦٦١٨٢٠٤-CN"
+    },
+    "trade_name_ar": {
+      "value": "لمسة الإبداع للديكور",
+      "confidence": "high",
+      "source_snippet": "لمسة الإبداع للديكور"
+    },
+    "trade_name_en": {
+      "value": "CREATIVE TOUCH DECOR",
+      "confidence": "high",
+      "source_snippet": "CREATIVE TOUCH DECOR"
+    },
+    "legal_form": {
+      "value": "شركة الشخص الواحد ذات المسؤولية المحدودة",
+      "confidence": "high",
+      "source_snippet": "شركة الشخص الواحد ذات المسؤولية المحدودة"
+    },
+    "main_activity": {
+      "value": "أعمال الديكور الداخلي",
+      "confidence": "high",
+      "source_snippet": "أعمال الديكور الداخلي"
+    },
+    "issue_date": {
+      "value": "2025-06-22",
+      "confidence": "medium",
+      "source_snippet": "٢٢/٠٦/٢٠٢٥"
+    },
+    "expiry_date": {
+      "value": "2026-06-21",
+      "confidence": "medium",
+      "source_snippet": "٢١/٠٦/٢٠٢٦"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 7.2,
+  "input_tokens": 7653,
+  "output_tokens": 409
+}

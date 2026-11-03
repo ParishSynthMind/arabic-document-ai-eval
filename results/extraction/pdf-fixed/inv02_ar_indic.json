@@ -1,0 +1,57 @@
+{
+  "doc": "inv02_ar_indic",
+  "method": "pdf-fixed",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "مؤسسة الريان لألجهزة الكهربائية",
+      "confidence": "high",
+      "source_snippet": "مؤسسة الريان لألجهزة الكهربائية"
+    },
+    "supplier_trn": {
+      "value": "100387612400003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: ١٠٠٣٨٧٦١٢٤٠٠٠٠٣"
+    },
+    "invoice_number": {
+      "value": "2026/118",
+      "confidence": "high",
+      "source_snippet": "رقم الفاتورة: ٢٠٢٦/١١٨"
+    },
+    "invoice_date": {
+      "value": "2026-09-03",
+      "confidence": "high",
+      "source_snippet": "تاريخ الفاتورة: ٠٣/٠٩/٢٠٢٦"
+    },
+    "customer_name": {
+      "value": "فندق اللؤلؤة الزرقاء",
+      "confidence": "high",
+      "source_snippet": "العميل: فندق اللؤلؤة الزرقاء"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 5100,
+      "confidence": "high",
+      "source_snippet": "المجموع قبل الضريبة ٥,١٠٠.٠٠"
+    },
+    "vat_amount": {
+      "value": 255,
+      "confidence": "high",
+      "source_snippet": "ضريبة القيمة المضافة ٥٪ ٢٥٥.٠٠"
+    },
+    "total_amount": {
+      "value": 5355,
+      "confidence": "high",
+      "source_snippet": "اإلجمالي المستحق ٥,٣٥٥.٠٠"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nمؤسسة الريان لألجهزة الكهربائية\nالرقم الضريبي للمورد: ١٠٠٣٨٧٦١٢٤٠٠٠٠٣\nالعنوان: شارع الميناء، مبنى ١٤، المكتب ٣٠٢ - عنوان تجريبي\nفاتورة ضريبية\nرقم الفاتورة: ٢٠٢٦/١١٨\nتاريخ الفاتورة: ٠٣/٠٩/٢٠٢٦\nالعميل: فندق اللؤلؤة الزرقاء\nالعملة: درهم إماراتي\n# البيان الكمية سعر الوحدة المبلغ\n١ مكيف سبليت ١٫٥ طن ٣ ١,٤٥٠.٠٠ ٤,٣٥٠.٠٠\n٢ تركيب وتشغيل ٣ ٢٥٠.٠٠ ٧٥٠.٠٠\nالمجموع قبل الضريبة ٥,١٠٠.٠٠\nضريبة القيمة المضافة ٥٪ ٢٥٥.٠٠\nاإلجمالي المستحق ٥,٣٥٥.٠٠\nيرجى السداد خالل ٣٠ يومًا من تاريخ الفاتورة. هذه فاتورة تجريبية ألغراض االختبار.",
+  "seconds": 3.7,
+  "input_tokens": 4229,
+  "output_tokens": 555
+}

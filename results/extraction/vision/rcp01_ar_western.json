@@ -1,0 +1,42 @@
+{
+  "doc": "rcp01_ar_western",
+  "method": "vision",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "مقهى الياسمين",
+      "confidence": "high",
+      "source_snippet": "مقهى الياسمين"
+    },
+    "receipt_number": {
+      "value": "R-88213",
+      "confidence": "high",
+      "source_snippet": "رقم الإيصال: R-88213"
+    },
+    "receipt_date": {
+      "value": "2026-10-30",
+      "confidence": "high",
+      "source_snippet": "التاريخ: 30/10/2026"
+    },
+    "payment_method": {
+      "value": "card",
+      "confidence": "high",
+      "source_snippet": "بطاقة ائتمان (مدى/ فيزا) ****4417"
+    },
+    "vat_amount": {
+      "value": 3.71,
+      "confidence": "high",
+      "source_snippet": "منها ضريبة القيمة المضافة 5٪ 3.71"
+    },
+    "total_amount": {
+      "value": 78.0,
+      "confidence": "high",
+      "source_snippet": "الإجمالي شامل الضريبة درهم 78.00"
+    }
+  },
+  "error": null,
+  "document_text": null,
+  "seconds": 3.7,
+  "input_tokens": 3705,
+  "output_tokens": 307
+}

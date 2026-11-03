@@ -1,0 +1,23 @@
+شركة البيان لتقنية المعلومات
+
+Al Bayan IT Company
+
+الرقم الضريبي للمورد ‎I-WVAIFPE....t / Supplier TRN‏
+العنوان: شارع الميناء. مبنى ‎le‏ المكتب ).ا - عنوان تجريبي
+
+/ Tax Invoice ‏فاتورة ضريبية‎
+
+Pr.9-BY :/ Invoice No. ‏رقم الفاتورة‎
+r.r ‏أكتوبر‎ lo / Invoice date ‏تاريخ الفاتورة‎
+‏الخاصة‎ Goll ‏مدرسة‎ :/ Customer ‏العميل‎
+‎Jo] ‏درهم‎ :/ Currency ‏العملة‎
+‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #
+Amount Unit price Qty
+Accounting software licence (1 year)
+‏ار‎ Po... 1 Staff training / ‏تدريب الموظفين‎ | 1
+‏كيل‎ / Subtotal dw pall ‏المجموع قبل‎
+PIO. 7.0 / VAT ‏ضريبة القيمة المضافة‎
+3,710.0 / Total due ‏الإجمالي المستحق‎
+
+‎op‏ السداد خلال ‎logy I.‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبار.
+

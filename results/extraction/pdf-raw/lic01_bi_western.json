@@ -1,0 +1,47 @@
+{
+  "doc": "lic01_bi_western",
+  "method": "pdf-raw",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-4471209",
+      "confidence": "high",
+      "source_snippet": "CN-4471209 / Licence No. ةصخرلا مقر"
+    },
+    "trade_name_ar": {
+      "value": "الواحة للتجارة العامة",
+      "confidence": "medium",
+      "source_snippet": "ةماعلا ةراجتلل ةحاولا / Trade name يراجتلا مسلاا"
+    },
+    "trade_name_en": {
+      "value": "AL WAHA GENERAL TRADING",
+      "confidence": "high",
+      "source_snippet": "AL WAHA GENERAL TRADING"
+    },
+    "legal_form": {
+      "value": "شركة ذات مسؤولية محدودة",
+      "confidence": "medium",
+      "source_snippet": "ةدودحم ةيلوؤسم تاذ ةكرش / Legal form ينوناقلا لكشلا"
+    },
+    "main_activity": {
+      "value": "تجارة المواد الغذائية بالجملة",
+      "confidence": "medium",
+      "source_snippet": "ةلمجلاب ةيئاذغلا داوملا ةراجت / Main activity يسيئرلا طاشنلا"
+    },
+    "issue_date": {
+      "value": "2024-03-17",
+      "confidence": "high",
+      "source_snippet": "17/03/2024 / Issue date رادصلإا خيرات"
+    },
+    "expiry_date": {
+      "value": "2027-03-16",
+      "confidence": "high",
+      "source_snippet": "16/03/2027 / Expiry date ءاهتنلاا خيرات"
+    }
+  },
+  "error": null,
+  "document_text": "--- page 1 ---\nةحاولا ةنيدم - ةيداصتقلاا ةيمنتلا بتكم\nOasis City Economic Office (fictional authority)\n/ Commercial Licence ةيراجت ةصخر\nCN-4471209 / Licence No. ةصخرلا مقر\nةماعلا ةراجتلل ةحاولا / Trade name يراجتلا مسلاا\nAL WAHA GENERAL TRADING\nةدودحم ةيلوؤسم تاذ ةكرش / Legal form ينوناقلا لكشلا\nةلمجلاب ةيئاذغلا داوملا ةراجت / Main activity يسيئرلا طاشنلا\n17/03/2024 / Issue date رادصلإا خيرات\n16/03/2027 / Expiry date ءاهتنلاا خيرات\nE\nL\n.ةيقيقح ةيموكح ةهج يأ نع ةرداص تسيلو طقف رابتخلاا ضارغلأ ةيجذومن ةقيثو هذه\nP\nM\nA\nS\nع\nي\nن\nة",
+  "seconds": 6.7,
+  "input_tokens": 3245,
+  "output_tokens": 493
+}

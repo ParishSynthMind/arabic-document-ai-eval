@@ -1,0 +1,9 @@
+name: receipt_ar
+description: A shop or cafe till receipt printed in Arabic.
+fields:
+  - {name: merchant_name, type: string, required: true, description: "Shop name exactly as printed in Arabic."}
+  - {name: receipt_number, type: string, required: true, description: "Receipt number (رقم الإيصال) with Western digits 0-9."}
+  - {name: receipt_date, type: date, required: true, description: "Date as YYYY-MM-DD. Numeric dates are day/month/year."}
+  - {name: payment_method, type: string, required: true, description: "Exactly one English word: cash or card."}
+  - {name: vat_amount, type: number, description: "VAT amount included in the total."}
+  - {name: total_amount, type: number, required: true, description: "Total paid, including VAT."}

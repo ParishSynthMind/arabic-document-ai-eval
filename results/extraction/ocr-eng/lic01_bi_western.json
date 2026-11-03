@@ -1,0 +1,47 @@
+{
+  "doc": "lic01_bi_western",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "licence_number": {
+      "value": "CN-4471209",
+      "confidence": "high",
+      "source_snippet": "CN-4471209 / Licence No."
+    },
+    "trade_name_ar": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "trade_name_en": {
+      "value": "AL WAHA GENERAL TRADING",
+      "confidence": "medium",
+      "source_snippet": "AL WAHA GENERAL TRADING h"
+    },
+    "legal_form": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "main_activity": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "issue_date": {
+      "value": "2024-03-17",
+      "confidence": "high",
+      "source_snippet": "17/03/2024 / Issue date"
+    },
+    "expiry_date": {
+      "value": "2027-03-16",
+      "confidence": "high",
+      "source_snippet": "16/03/2027 / Expiry date"
+    }
+  },
+  "error": null,
+  "document_text": "Oasis City Economic Office (fictional authority)\n\n/ Commercial Licence dyjlaj duns)\n\nCN-4471209 / Licence No. das JI pd)\n\ndole)! ojlail) dolgll / Trade name syLUl ou dl\nAL WAHA GENERAL TRADING h\n\n639200 dwgguuo ld a5 / Legal form (igiléJl JS.dul\n\ndloody dglaelisigall ola | / Main activity Guid! bil\n\n17/03/2024 / Issue date jlao Jl a1)G\n\n16/03/2027 / Expiry date claiidl ay)G\n\n",
+  "seconds": 2.3,
+  "input_tokens": 3059,
+  "output_tokens": 293
+}

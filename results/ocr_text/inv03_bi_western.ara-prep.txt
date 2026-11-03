@@ -1,0 +1,22 @@
+Gulf Falcon Logistics Services LLC
+
+الرقم ‎_u pall‏ للمورد ‎Supplier TRN‏ / 100512908700003
+العنوان: شارع الميناء. ‎ie Guo‏ المكتب ‎"١‏ - عنوان تجريبي
+
+/ Tax Invoice ‏فاتورة ضريبية‎
+
+GF-77812 / Invoice No. ‏رقم الفاتورة‎
+2026-10-28 / Invoice date ‏تاريخ الفاتورة‎
+Desert Rose Trading FZE :/ Customer ‏العميل‎
+‎Jol ‏درهم‎ :/ Currency ‏العملة‎
+‎/ ‏الكمية / سعر الوحدة / المبلغ‎ / Description ‏البيان‎ | #
+Amount Unit price Qty
+3,600.00 1.800.00 2 Road freight / ‏دبي - أبوظبي‎ sp ‏شحن‎ | 1
+"Dubai - Abu Dhabi
+640.00 640.00 1 Storage (week) / ‏تخزين (أسبوع)‎ | 2 |
+4,240.00 / Subtotal aw pall ‏لمجموع قبل‎
+212.00 57 / VAT ‏القيمة المضافة‎ aw uo
+4,452.00 / Total due ‏الإجمالي المستحق‎
+
+JW Ul ‏من تاريخ القاتورة هذه قاتورة تجريبية لأعراض‎ logs ٠. ‏السداد خلال‎ op
+

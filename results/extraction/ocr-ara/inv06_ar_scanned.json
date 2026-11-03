@@ -1,0 +1,57 @@
+{
+  "doc": "inv06_ar_scanned",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "high",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": "100923347100003",
+      "confidence": "high",
+      "source_snippet": "الرقم الضريبي للمورد: 100923347100003"
+    },
+    "invoice_number": {
+      "value": "F-2026-0098",
+      "confidence": "high",
+      "source_snippet": "رقم الفاتورة: ‎F-2026-0098‏"
+    },
+    "invoice_date": {
+      "value": "2026-10-05",
+      "confidence": "medium",
+      "source_snippet": "تاريخ الفاتوزة: 05/10/2026"
+    },
+    "customer_name": {
+      "value": "جمعية البر الخيرية",
+      "confidence": "medium",
+      "source_snippet": "العفيل: جمعية البر الخيرية"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "العملة: درهم إماراتي"
+    },
+    "subtotal": {
+      "value": 2550.0,
+      "confidence": "medium",
+      "source_snippet": "المجموع قبل ‎aw All‏ 2,550.00"
+    },
+    "vat_amount": {
+      "value": 127.5,
+      "confidence": "medium",
+      "source_snippet": "‎dw ud‏ القيمة المضافة 75 127.50"
+    },
+    "total_amount": {
+      "value": 2677.5,
+      "confidence": "high",
+      "source_snippet": "الإجمالي المستحق. - . 2677.50 |"
+    }
+  },
+  "error": null,
+  "document_text": "الرقم الضريبي للمورد: 100923347100003\nالعنوان: شارع الميناء. ‎JE Guo‏ المكتب م - عنوان تجريبي\n\nفاتورة ضريبية\n\nرقم الفاتورة: ‎F-2026-0098‏\n‏تاريخ الفاتوزة: 05/10/2026\nالعفيل: جمعية البر الخيرية\nالعملة: درهم إماراتي\nالكمية سعر الوحدة ‎glad‏\n‏500 4.20 220.0\n‎Sl‏\n‏1 450.00 450.00\n5 و\nالمجموع قبل ‎aw All‏ 2,550.00\n‎dw ud‏ القيمة المضافة 75 127.50\nنج ججح\nالإجمالي المستحق. - . 2677.50 |\n\n‎Loy‏ السداد خلال .© ‎logs‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأغراض الاختبال\n\n",
+  "seconds": 3.6,
+  "input_tokens": 4083,
+  "output_tokens": 461
+}

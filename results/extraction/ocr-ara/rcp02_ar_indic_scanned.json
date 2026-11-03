@@ -1,0 +1,42 @@
+{
+  "doc": "rcp02_ar_indic_scanned",
+  "method": "ocr-ara",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "merchant_name": {
+      "value": "بقالة الخير",
+      "confidence": "high",
+      "source_snippet": "بقالة الخير"
+    },
+    "receipt_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "رقم الإيصال: امن"
+    },
+    "receipt_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "التازيخ؛ .2/1/2"
+    },
+    "payment_method": {
+      "value": "cash",
+      "confidence": "high",
+      "source_snippet": "نقداً"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "القيمة المضافة م70 ا"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الإجمالي ‎ay pall Jolin‏ درهم ‎Woes‏"
+    }
+  },
+  "error": null,
+  "document_text": "بقالة الخير\n\nرقم الإيصال: امن\nالتازيخ؛ .2/1/2 الوقت: ‎INEF‏\n\nخليب طازج ‎١‏ لتر 5 .وض\nم ‎Avo‏\n\n/.0 ‏خبز عربي‎\nr.o- xp\n\nYT mde jel\nTEx}\n\nالإجمالي ‎ay pall Jolin‏ درهم ‎Woes‏\n‎du uo; lain‏ القيمة المضافة م70 ا\nطزيقة الذفع .. ... نقداً\n\nشكراً لزيارتكم\n",
+  "seconds": 3.2,
+  "input_tokens": 2627,
+  "output_tokens": 269
+}

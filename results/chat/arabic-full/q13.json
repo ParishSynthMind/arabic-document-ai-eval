@@ -1,0 +1,35 @@
+{
+  "question": {
+    "id": "q13",
+    "kind": "mixed Arabic/English",
+    "question": "كم سعر الـ deep cleaning لفيلا؟",
+    "status": [
+      "answered"
+    ],
+    "section": "التنظيف العميق",
+    "facts": [
+      [
+        "1400",
+        "1,400"
+      ]
+    ],
+    "lang": "ar"
+  },
+  "config": "arabic-full",
+  "reply": {
+    "status": "answered",
+    "reply": "سعر التنظيف العميق لفيلا حتى 4 غرف هو 1,400 درهم. يستغرق العمل يوماً كاملاً بفريق من 4 أشخاص، ونحن نحضر جميع المواد والمعدات.",
+    "citations": [
+      {
+        "source": "services-and-prices.md",
+        "heading": "التنظيف العميق"
+      }
+    ],
+    "model_called": true,
+    "retrieved": [
+      "التنظيف العميق"
+    ]
+  },
+  "grounded": true,
+  "judge_reason": "The reply's claims match the knowledge base: villa deep cleaning up to 4 rooms costs 1,400 AED, takes a full day with a team of 4, and the company brings all materials and equipment. Nothing extra is promised."
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv07_bi_indic_scanned",
+  "method": "ocr-prep",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": "شركة الصحراء الذهبية للسياحة",
+      "confidence": "high",
+      "source_snippet": "شركة الصحراء الذهبية للسياحة"
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "الرقم الضريبي للمهورد ‎1.£0TWASI...t* / Supplier TRN‏"
+    },
+    "invoice_number": {
+      "value": "001-07",
+      "confidence": "low",
+      "source_snippet": "رقم الفاتورة ‎Invoice No.‏ /ا 001-07"
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "JM / Invoice date ‏تاريخ الفاتورة‎"
+    },
+    "customer_name": {
+      "value": "Blue Horizon Events LLC",
+      "confidence": "high",
+      "source_snippet": "Blue Horizon Events LLC / Customer ‏العميل‎"
+    },
+    "currency": {
+      "value": "AED",
+      "confidence": "high",
+      "source_snippet": "‏درهم إماراتي‎ / Currency ‏العملة‎"
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "المجموع قبل الضريبة ‎Subtotal‏ /"
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "ضريبة القيمة المضافة ‎VAT‏ / 7.0"
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": "/ Total due ‏الإجمالي المستحق‎"
+    }
+  },
+  "error": null,
+  "document_text": "شركة الصحراء الذهبية للسياحة\n‎Golden Desert Tourism Co.‏\n\nالرقم الضريبي للمهورد ‎1.£0TWASI...t* / Supplier TRN‏\nالعنوان: شارع الميناء. ‎IE Guo‏ المكتب ).© - عنوان تحريبي\n\n/ Tax Invoice ‏فاتورة ضريبية‎\n\nرقم الفاتورة ‎Invoice No.‏ /ا 001-07\n\nJM / Invoice date ‏تاريخ الفاتورة‎\n\nBlue Horizon Events LLC / Customer ‏العميل‎\n‏درهم إماراتي‎ / Currency ‏العملة‎\n\nالبيان ‎Description‏ / الكمية / سعر الوحدة ‎Unit‏ / المبلغ /\n\nAmount price Qty\nhi I vo... re Desert / ‏رحلة سفارى صحراوية‎\n) safari\n\nالمجموع قبل الضريبة ‎Subtotal‏ /\nضريبة القيمة المضافة ‎VAT‏ / 7.0\n\n/ Total due ‏الإجمالي المستحق‎\n\nبرجى السداد خلال .© ‎logs‏ من تاريخ الفاتورة. هذه فاتورة تجريبية لأعراص الاختبار\n\n",
+  "seconds": 4.1,
+  "input_tokens": 4206,
+  "output_tokens": 528
+}

@@ -1,0 +1,57 @@
+{
+  "doc": "inv08_ar_hijri",
+  "method": "ocr-eng",
+  "model": "claude-sonnet-5-5",
+  "raw": {
+    "supplier_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "supplier_trn": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_number": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "invoice_date": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "customer_name": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "currency": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "subtotal": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "vat_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    },
+    "total_amount": {
+      "value": null,
+      "confidence": "low",
+      "source_snippet": ""
+    }
+  },
+  "error": null,
+  "document_text": "Slag yeild ani Jlog 45s\n\nFILIEOIVAS....t” 3)g0l) Gu pall aol\nGUIS Jlgie - Pr dbl! le Guo welizall gl :glgiell\n\nday p16 049i Lo\n\n€€/IEEN-RN :0jgilall 0d)\n\n0 ro/1-/r-M @olgall & IEEN 0/IE :0)gilall 2y)0\n\nJll dled! Laduiuuo Joell\n\nSr9ew Jug :aoell\n&lall 8209) youu d04J1 gli #\nFre. IN.0- Ir. ooo) Ulojliwo |\nVl. Ir... 1. daub blai gulsi r\n\nFEAL | Gaia! Jao gl\n\nJWB Ul yblye ll dua 6)gilo oie .6gilall ab go log Po JUS shad! op\n",
+  "seconds": 2.2,
+  "input_tokens": 4039,
+  "output_tokens": 260
+}
