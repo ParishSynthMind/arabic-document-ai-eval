@@ -184,6 +184,10 @@ What happened, honestly:
 - **Dialect and Arabic-Indic digits were fine.** "عندي ٣ مكيفات" came back as 450 AED, worked out correctly.
 - **The one lost point is debatable.** For the complaint, both Arabic versions said a team member will be in touch soon. The grader marked that as an unsupported promise, since the help pages don't describe that process. In the live chatbot the handover form does exactly that, but I have left the score as the grader gave it.
 
+### AI disclosure (EU AI Act Article 50)
+
+The chat surface in [`arabic_eval/chat.py`](arabic_eval/chat.py) now opens each conversation by saying it is an AI: "I'm an AI assistant for {company}." (in Arabic for Arabic messages in the arabic-full version: "أنا مساعد ذكاء اصطناعي لدى {company}."). It shows once per conversation (per conversation id, or when there is no history), again after a reset or a new session id, and on every handover to a person ("I'm an AI assistant for {company}, so I'm passing you to a person from the team."). Set it with `AI_DISCLOSURE` / `AI_DISCLOSURE_AR`; blank keeps the default, and it is only switched off when `AI_DISCLOSURE_REMOVED_BY_WRITTEN_REQUEST` records the client's written request (date and who asked). The vendored chatbot code in `vendor/support_chatbot/` is unchanged; the line is carried in `ChatReply.disclosure` so the scores above (which predate it, as does the screenshot) still grade the answer itself. Tested offline in `tests/test_ai_disclosure.py`.
+
 ## Run it yourself
 
 Needs Python 3.10+ and Tesseract (`brew install tesseract` / `apt-get install tesseract-ocr`).
@@ -192,7 +196,7 @@ Needs Python 3.10+ and Tesseract (`brew install tesseract` / `apt-get install te
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt -r requirements-dev.txt
 ./scripts/get_tessdata.sh                       # Arabic + English OCR models (fast and best)
-pytest                                          # 31 tests, Claude mocked, no API key needed
+pytest                                          # 40 tests, Claude mocked, no API key needed
 
 # rebuild the test documents (WeasyPrint needs Pango; on macOS with Homebrew:
 # DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib)
@@ -211,7 +215,7 @@ Every model reply is saved as soon as it arrives and is never requested twice, s
 
 ## Tests
 
-31 tests ([`tests/`](tests/)) cover Arabic normalisation (digits, separators, letter forms, Arabic month names), both scoring methods, the PDF text-layer reversal, the OCR helpers (Otsu threshold, skew detection, preprocessing), a real Tesseract Arabic read of a test page (skipped if Tesseract isn't installed), the Claude request shape for text and images, every review check including the three Arabic ones, the Arabic tokenizer and stemmer, each chatbot version's routing, citations and language rule, the rubric, and that the ground truth matches the document specs. GitHub Actions runs them on every push with Tesseract and the Arabic models installed and no API key.
+40 tests ([`tests/`](tests/)) cover Arabic normalisation (digits, separators, letter forms, Arabic month names), both scoring methods, the PDF text-layer reversal, the OCR helpers (Otsu threshold, skew detection, preprocessing), a real Tesseract Arabic read of a test page (skipped if Tesseract isn't installed), the Claude request shape for text and images, every review check including the three Arabic ones, the Arabic tokenizer and stemmer, each chatbot version's routing, citations and language rule, the AI disclosure on first replies and handovers, the rubric, and that the ground truth matches the document specs. GitHub Actions runs them on every push with Tesseract and the Arabic models installed and no API key.
 
 ## Limitations
 

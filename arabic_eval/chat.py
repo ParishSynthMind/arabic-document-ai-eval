@@ -12,9 +12,16 @@ so the Arabic changes can be measured on their own:
                   reply in the visitor's language, and a small-knowledge-base
                   fallback (no keyword hits -> give the model every section, which
                   lets an English question be answered from Arabic docs)
+
+AI disclosure (EU AI Act Art. 50): the first reply of each conversation, and every handover to
+a person, carries a line saying the visitor is talking to an AI assistant (ChatReply.disclosure,
+shown before the reply in ChatReply.text). It is added here, on the chat surface; the vendored
+chatbot code in vendor/support_chatbot/ is left unchanged. ChatReply.reply stays the bare answer,
+so the rubric scores the same thing as before.
 """
 from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -44,6 +51,42 @@ English question -> English answer), even when the knowledge base is in a differ
 use clear Modern Standard Arabic that a Gulf customer reads naturally, and write numbers with Western digits."""
 
 SMALL_KB_CHARS = 8000
+
+DEFAULT_AI_DISCLOSURE = "I'm an AI assistant for {company}."
+DEFAULT_AI_DISCLOSURE_AR = "أنا مساعد ذكاء اصطناعي لدى {company}."
+HANDOVER_DISCLOSURE = "I'm an AI assistant for {company}, so I'm passing you to a person from the team."
+HANDOVER_DISCLOSURE_AR = "أنا مساعد ذكاء اصطناعي لدى {company}، لذلك سأحوّلك إلى أحد أفراد الفريق."
+
+
+@dataclass
+class Disclosure:
+    """What the bot says about being an AI. Blank text falls back to the default; the only way to
+    switch it off is removed_by_written_request: a recorded reference (date and who asked)."""
+    text: str = DEFAULT_AI_DISCLOSURE
+    text_ar: str = DEFAULT_AI_DISCLOSURE_AR
+    removed_by_written_request: str = ""
+
+    @classmethod
+    def from_env(cls, env=None) -> "Disclosure":
+        e = os.environ if env is None else env
+        return cls(e.get("AI_DISCLOSURE", ""), e.get("AI_DISCLOSURE_AR", ""),
+                   e.get("AI_DISCLOSURE_REMOVED_BY_WRITTEN_REQUEST", ""))
+
+    @property
+    def off(self) -> bool:
+        return bool((self.removed_by_written_request or "").strip())
+
+    def first(self, company: str, arabic: bool) -> str:
+        if self.off:
+            return ""
+        text = (self.text_ar if arabic else self.text) or ""
+        text = text.strip() or (DEFAULT_AI_DISCLOSURE_AR if arabic else DEFAULT_AI_DISCLOSURE)
+        return text.replace("{company}", company)
+
+    def handover(self, company: str, arabic: bool) -> str:
+        if self.off:
+            return ""
+        return (HANDOVER_DISCLOSURE_AR if arabic else HANDOVER_DISCLOSURE).replace("{company}", company)
 
 
 class ArabicAwareAnswerer(ClaudeAnswerer):
@@ -76,6 +119,12 @@ class ChatReply:
     citations: list = field(default_factory=list)
     model_called: bool = False
     retrieved: list = field(default_factory=list)
+    disclosure: str = ""  # AI disclosure shown before the reply (first reply of a conversation, handover)
+
+    @property
+    def text(self) -> str:
+        """What the visitor sees."""
+        return f"{self.disclosure}\n{self.reply}" if self.disclosure else self.reply
 
 
 @dataclass
@@ -87,8 +136,29 @@ class Bot:
     small_kb_fallback: bool = False
     arabic_fixed_replies: bool = False
     top_k: int = 5
+    company: str = ""
+    disclosure: Disclosure = field(default_factory=Disclosure)
+    seen: set = field(default_factory=set)  # conversation ids already told they are talking to an AI
 
-    def chat(self, message: str, history=()) -> ChatReply:
+    def chat(self, message: str, history=(), conversation_id=None) -> ChatReply:
+        """One visitor turn. A conversation is new when its id has not been seen (a reset store or a
+        new session id counts as new) or, with no id, when there is no history."""
+        new = conversation_id not in self.seen if conversation_id is not None else not history
+        if conversation_id is not None:
+            self.seen.add(conversation_id)
+        reply = self._chat(message, history)
+        arabic = self.arabic_fixed_replies and bool(re.search(r"[؀-ۿ]", message))
+        if reply.status in ("handover", "needs_human"):
+            reply.disclosure = self.disclosure.handover(self.company, arabic)
+        elif new:
+            reply.disclosure = self.disclosure.first(self.company, arabic)
+        return reply
+
+    def forget(self, conversation_id) -> None:
+        """The conversation store was reset: the next message is a new conversation again."""
+        self.seen.discard(conversation_id)
+
+    def _chat(self, message: str, history=()) -> ChatReply:
         message = guardrails.clean_text(message)
         arabic = self.arabic_fixed_replies and bool(re.search(r"[؀-ۿ]", message))
         if guardrails.wants_human(message) or (self.arabic_human_check and HUMAN_REQUEST_AR.search(message)):
@@ -115,12 +185,16 @@ class Bot:
         return ChatReply("not_in_knowledge_base", text, [], True, retrieved)
 
 
-def build_bots(kb_dir: Path, company: str, client=None) -> dict:
+def build_bots(kb_dir: Path, company: str, client=None, disclosure: Disclosure = None) -> dict:
+    d = disclosure or Disclosure.from_env()
     original_kb = ArabicKnowledgeBase.from_dir(kb_dir, tokenize_fn=base_kb.tokenize)  # same BM25, original tokenizer
     arabic_kb = ArabicKnowledgeBase.from_dir(kb_dir, tokenize_fn=ar_tokenize)
     return {
-        "original": Bot("original", original_kb, ArabicAwareAnswerer(company, client=client)),
-        "arabic-search": Bot("arabic-search", arabic_kb, ArabicAwareAnswerer(company, client=client)),
+        "original": Bot("original", original_kb, ArabicAwareAnswerer(company, client=client),
+                        company=company, disclosure=d),
+        "arabic-search": Bot("arabic-search", arabic_kb, ArabicAwareAnswerer(company, client=client),
+                             company=company, disclosure=d),
         "arabic-full": Bot("arabic-full", arabic_kb, ArabicAwareAnswerer(company, LANGUAGE_RULE, client=client),
-                           arabic_human_check=True, small_kb_fallback=True, arabic_fixed_replies=True),
+                           arabic_human_check=True, small_kb_fallback=True, arabic_fixed_replies=True,
+                           company=company, disclosure=d),
     }
